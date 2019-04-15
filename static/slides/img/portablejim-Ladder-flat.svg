@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns1="http://sozi.baierouge.fr" id="svg2" viewBox="0 0 255.29 650.6" version="1.0" inkscape:version="0.91 r13725">
+  <defs id="defs4">
+    <linearGradient id="linearGradient3181">
+      <stop id="stop3183" style="stop-color:#7a5a36" offset="0"/>
+      <stop id="stop3189" style="stop-color:#a57948" offset=".5"/>
+      <stop id="stop3185" style="stop-color:#decab2" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient4977" y2="286.97" xlink:href="#linearGradient3181" gradientUnits="userSpaceOnUse" x2="-165.58" y1="286.97" x1="-185.58"/>
+    <linearGradient id="linearGradient4979" y2="-181.68" xlink:href="#linearGradient3181" gradientUnits="userSpaceOnUse" x2="159.5" y1="739.61" x1="177.14"/>
+  </defs>
+  <g id="layer1" transform="translate(-.0000044703 1.2926e-7)">
+    <g id="g4959" transform="translate(-159.5 -89.005)">
+      <rect id="rect2387" style="fill-rule:evenodd;stroke:#000000;stroke-width:.74433;fill:url(#linearGradient4977)" transform="rotate(-90)" ry="0" width="19.256" y="193.9" x="-185.21" height="186.15"/>
+      <rect id="rect2383" style="fill-rule:evenodd;stroke:#000000;stroke-width:.89617px;fill:url(#linearGradient4979)" ry="17.195" height="649.71" width="34.39" y="89.453" x="159.95"/>
+      <use id="use2385" xlink:href="#rect2383" transform="translate(220)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use3159" xlink:href="#rect2387" transform="translate(0 94.15)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use3161" xlink:href="#use3159" transform="translate(0 94.15)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use3163" xlink:href="#use3159" transform="translate(0 188.3)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use3165" xlink:href="#use3159" transform="translate(0 282.45)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use3191" xlink:href="#rect2387" transform="translate(0 470.75)" height="1052.3622" width="744.09448" y="0" x="0"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Ladder (flat)</dc:title>
+        <dc:date>2008-08-16T04:37:03</dc:date>
+        <dc:description>A fixed ladder being looked at from the front. This makes to look fairly 2D.</dc:description>
+        <dc:source>https://openclipart.org/detail/18440/ladder-(flat)-by-portablejim</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>portablejim</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>colour</rdf:li>
+            <rdf:li>fixed</rdf:li>
+            <rdf:li>ladder</rdf:li>
+            <rdf:li>rung</rdf:li>
+            <rdf:li>tool</rdf:li>
+            <rdf:li>wood</rdf:li>
+            <rdf:li>woodern</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

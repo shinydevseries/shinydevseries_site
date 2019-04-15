@@ -1,0 +1,18 @@
+# Font style metadata
+name = "Default"
+
+# Optional Google font URL
+google_fonts = "Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono|Orbitron:400,500|Fira+Sans:400"
+
+# Font families
+#heading_font = "Montserrat"
+heading_font = "Orbitron"
+body_font = "Fira Sans"
+#body_font = "Orbitron"
+#nav_font = "Roboto"
+nav_font = "Orbitron"
+mono_font = "Roboto Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

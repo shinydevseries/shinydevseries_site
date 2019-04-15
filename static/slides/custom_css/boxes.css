@@ -1,0 +1,21 @@
+.content-box-blue, .content-box-blue-centre,  .content-box-green{
+    border-radius: 15px;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 10px;
+    width: 90%;
+    position: right;
+}
+
+.content-box-blue {
+    background-color: #a2b9bc;
+}
+
+.content-box-green {
+    background-color: #89C35C;
+}
+
+.content-box-blue-centre {
+    background-color: #a2b9bc;
+    text-align: center;
+}
