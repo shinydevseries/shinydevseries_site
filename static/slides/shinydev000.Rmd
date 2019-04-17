@@ -21,29 +21,33 @@ output:
 options(htmltools.dir.version = FALSE)
 library(icon)
 
-footer_spacing <- function(left_spaces = 20, 
-                           right_spaces = 8,
-                           center_title = "Episode 0: Launch!",
-                           left_title = "Shiny Developer Series",
-                           right_title = "shinydevseries.com", 
-                           footer_class = "my-footer") {
-  
-  footer_content <- paste0(left_title, 
-                           paste(rep("&emsp", left_spaces), collapse=";"), 
-                           ";", 
-                           center_title, 
-                           paste(rep("&emsp", right_spaces), collapse=";"),  
-                           ";", 
-                           right_title)
-  
-  glue::glue('<div class="{footer_class}"><span>{footer_content}</span></div>')
+footer_gen <- function(text = "shinydevseries.com/ep0", footer_class = "my-footer") {
+  glue::glue('<div class="{footer_class}"><span>{text}</span></div>')
 }
+
+# footer_spacing <- function(left_spaces = 20, 
+#                            right_spaces = 8,
+#                            center_title = "Episode 0: Launch!",
+#                            left_title = "Shiny Developer Series",
+#                            right_title = "shinydevseries.com", 
+#                            footer_class = "my-footer") {
+#   
+#   footer_content <- paste0(left_title, 
+#                            paste(rep("&emsp", left_spaces), collapse=";"), 
+#                            ";", 
+#                            center_title, 
+#                            paste(rep("&emsp", right_spaces), collapse=";"),  
+#                            ";", 
+#                            right_title)
+#   
+#   glue::glue('<div class="{footer_class}"><span>{footer_content}</span></div>')
+# }
 
 ```
 
 layout: true
 
-`r footer_spacing(left_spaces = 55, right_spaces = 50)` 
+`r footer_gen()` 
 
 <!-- this adds the link footer to all slides, depends on my-footer class in css-->
 
@@ -95,6 +99,40 @@ Shiny Developer Series
 
 ![](https://media.giphy.com/media/3oEdv03JAv74J6KGTS/giphy.gif)
 
+]
+
+---
+background-image: url(img/mountain1.jpg)
+background-size: cover
+
+---
+
+# The Shiny-verse Takes Shape
+
+Wealth of packages built by Shiny developers/users
+
+* User interfaces
+* Interactive HTML widgets
+* Backend enhancements
+* Workflow builders
+
+---
+# Learning the Shiny Basics
+
+.left-column-big[
+
+I recommend the following resources to help you begin to climb the [__shiny ladder of enlightenment__](https://github.com/rstudio/ShinyDeveloperConference/blob/master/Reactivity/slides.Rmd#ladder-of-enlightenment):
+
+* Webinars/conference presentations from RStudio:
+    + [Effective Reactive Programming](https://www.rstudio.com/resources/videos/effective-reactive-programming/)
+    + [Debugging Techniques](https://www.rstudio.com/resources/videos/debugging-techniques/)
+* [Official Shiny documentation articles](https://shiny.rstudio.com/articles_)
+* [Building Shiny apps - an interactive tutorial](https://deanattali.com/blog/building-shiny-apps-tutorial/) (Dean Attali)
+* [A totally different, read-me-first Shiny tutorial](http://www.open-meta.org/technology/a-totally-different-read-me-first-shiny-tutorial/) (Tom Weishaar)
+]
+
+.right-column-small[
+.center[![:scale 80%](img/portablejim-Ladder-flat.svg)]
 ]
 
 ---
@@ -163,25 +201,7 @@ class: center, middle, inverse
 
 ---
 
-# Learning the Shiny Basics
 
-.left-column-big[
-
-I recommend the following resources to help you begin to climb the [__shiny ladder of enlightenment__](https://github.com/rstudio/ShinyDeveloperConference/blob/master/Reactivity/slides.Rmd#ladder-of-enlightenment):
-
-* Webinars/conference presentations from RStudio:
-    + [Effective Reactive Programming](https://www.rstudio.com/resources/videos/effective-reactive-programming/)
-    + [Debugging Techniques](https://www.rstudio.com/resources/videos/debugging-techniques/)
-* [Official Shiny documentation articles](https://shiny.rstudio.com/articles_)
-* [Building Shiny apps - an interactive tutorial](https://deanattali.com/blog/building-shiny-apps-tutorial/) (Dean Attali)
-* [A totally different, read-me-first Shiny tutorial](http://www.open-meta.org/technology/a-totally-different-read-me-first-shiny-tutorial/) (Tom Weishaar)
-]
-
-.right-column-small[
-.center[![:scale 80%](img/portablejim-Ladder-flat.svg)]
-]
-
----
 
 ## The Journey Begins!
 
