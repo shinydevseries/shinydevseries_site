@@ -13,7 +13,7 @@ output:
       highlightLines: true
       highlightLanguage: r
       countIncrementalSlides: false
-      beforeInit: "macros.js"
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"]
     seal: false
 ---
 
@@ -102,10 +102,76 @@ Shiny Developer Series
 ]
 
 ---
-background-image: url(img/mountain1.jpg)
+class: inverse, center, top
+background-image: url(img/shinydevcon_pic.jpg)
 background-size: cover
 
+# ShinyDevCon (2016)
+
 ---
+class: inverse, center, bottom
+background-image: url(img/rpharma_pic.jpeg)
+background-size: cover
+
+## [rpodcast.gitlab.io/rpharma2018/](http://rpodcast.gitlab.io/rpharma2018/)
+
+
+---
+class: inverse, center, top
+background-image: url(img/rsconf2019_crowd.jpeg)
+background-size: cover
+
+# `rstudio::conf(2019L)`
+
+---
+
+.pull-left[
+<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">A fantastic talk on the why and how of <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> shiny modules by <a href="https://twitter.com/theRcast?ref_src=twsrc%5Etfw">@theRcast</a> Modules are absolutely essential to scaling your app efficiently and making it easy to reason about.  <a href="https://t.co/XJCBOzN9b9">https://t.co/XJCBOzN9b9</a> <a href="https://twitter.com/hashtag/rstudioconf?src=hash&amp;ref_src=twsrc%5Etfw">#rstudioconf</a> <a href="https://t.co/Ly3zzqSiDc">pic.twitter.com/Ly3zzqSiDc</a></p>&mdash; Nick Strayer (@NicholasStrayer) <a href="https://twitter.com/NicholasStrayer/status/1086344823932706816?ref_src=twsrc%5Etfw">January 18, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+]
+
+.pull-right[
+
+.center[
+![](img/rsconf2019_modules_slide.jpeg)
+[rpodcast.github.io/rsconf-2019](https://rpodcast.github.io/rsconf-2019)
+]
+]
+
+.center[
+## Ames Housing Explorer: [gallery.shinyapps.io/ames-explorer/](https://gallery.shinyapps.io/ames-explorer/)
+]
+
+---
+class: inverse, center, top
+background-image: url(img/chirunconf_pic.jpg)
+background-size: cover
+
+# Chicago R Unconference (2019)
+
+---
+
+.pull-left[
+<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">spent the last couple of days at <a href="https://twitter.com/hashtag/chirunconf?src=hash&amp;ref_src=twsrc%5Etfw">#chirunconf</a> building a totally 🔥 (if i do say so myself) shiny app with <a href="https://twitter.com/theRcast?ref_src=twsrc%5Etfw">@theRcast</a>, designed to help see available issues (and celebrate closed ones!) in an <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> unconference setting. comes with a default repo, but you can add others! <a href="https://t.co/9Md7V3OUcQ">pic.twitter.com/9Md7V3OUcQ</a></p>&mdash; Sharla Gelfand (@sharlagelfand) <a href="https://twitter.com/sharlagelfand/status/1104956277413867520?ref_src=twsrc%5Etfw">March 11, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+]
+
+.pull-right[
+
+.center[
+![](img/chirunconf_app.gif)
+[rpodcast.shinyapps.io/unconfissues](https://rpodcast.shinyapps.io/unconfissues/)
+]
+]
+
+.center[
+## [github.com/unconf-toolbox/unconfissues](https://github.com/unconf-toolbox/unconfissues)
+]
+
+---
+
+
 
 # The Shiny-verse Takes Shape
 
