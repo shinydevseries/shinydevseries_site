@@ -170,19 +170,6 @@ background-size: cover
 ]
 
 ---
-
-
-
-# The Shiny-verse Takes Shape
-
-Wealth of packages built by Shiny developers/users
-
-* User interfaces
-* Interactive HTML widgets
-* Backend enhancements
-* Workflow builders
-
----
 # Learning the Shiny Basics
 
 .left-column-big[
@@ -224,7 +211,7 @@ class: center, middle, inverse
 ## Made possible by the shiny-verse
 
   - [`shinyjs`](https://deanattali.com/shinyjs): Easily improve the user experience of your Shiny apps in seconds by [Dean Attali](https://deanattali.com/)
-  - [`bs4Dash`](https://rinterface.github.io/bs4Dash/index.html): Bootstrap 4 shinydashboard using AdminLTE3 by [David Granjob](https://twitter.com/divadnojnarg) (part of the [RinteRface](https://rinterface.com/) initiative)
+  - [`bs4Dash`](https://rinterface.github.io/bs4Dash/index.html): Bootstrap 4 shinydashboard using AdminLTE3 by [David Granjon](https://twitter.com/divadnojnarg) (part of the [RinteRface](https://rinterface.com/) initiative)
   - [`shinyWidgets`](https://dreamrs.github.io/shinyWidgets/index.html): Extend widgets available in Shiny by [Victor Perrier](https://twitter.com/_pvictorr) (part of the [dreamRs](https://www.dreamrs.fr/)
     organization)
   - [`shinycustomloader`](https://emitanaka.github.io/shinycustomloader/): Add a custom loader for R shiny by [Emi Tanaka](https://emitanaka.github.io/)
@@ -242,9 +229,9 @@ class: center, middle, inverse
 
 ## [shinydevseries.com](https://shinydevseries.com)
 
-* Share techniques, snippets, practical advice gained from my use of `shiny`
-* Explore fascinating uses of `shiny` in the `r fa_r_project()` community
-* Hands-on videos illustrating Shiny apps and concepts in action
+* Share techniques, snippets, and practical advice for using Shiny
+* Explore fascinating uses of Shiny in the `r fa_r_project()` community
+* Hands-on videos illustrating Shiny apps, packages, and concepts in action
 ]
 
 --
