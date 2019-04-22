@@ -9,14 +9,15 @@
   weight = 10
 
 [[main]]
+  pre = "<i class=\"fas fa-laptop\"></i>"
   name = "Posts"
   url = "#posts"
   weight = 20
-
-[[main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 30
+#<i class=\"fas fa-laptop\"></i>
+#[[main]]
+#  name = "Projects"
+#  url = "#projects"
+#  weight = 30
 
 #[[main]]
 #  name = "Tutorials"
@@ -24,8 +25,9 @@
 #  weight = 50
 
 [[main]]
+  pre = "<i class=\"fas fa-envelope\"></i>"
   name = "Contact"
-  url = "#contact"
+  url = "https://contact.shinydevseries.com"
   weight = 60
 
 # Link to a PDF of your resume/CV from the menu.
