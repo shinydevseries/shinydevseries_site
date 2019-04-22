@@ -49,7 +49,7 @@ subtitle = ""
 
 The goals of the **Shiny Developer Series** are to showcase the innovative applications and packages in the ever-growing Shiny ecosystem, as well as the brilliant developers behind them! The series is composed of two components:
 
-- Video demonstrations and tutorials illustrating powerful techniques to bring your Shiny applications to the next level.  Each of these videos will be posted on this site and the official Shiny Developer Series [YouTube channel](https://www.youtube.com/channel/UCwQ7lkY6YWzZjT807Itbvtw).
+- Video demonstrations and tutorials illustrating powerful techniques to bring your Shiny applications to the next level.  Each of these videos will be posted on this site as well as the official Shiny Developer Series [YouTube channel](https://www.youtube.com/channel/UCwQ7lkY6YWzZjT807Itbvtw) & [PeerTube channel](https://peertube.linuxrocks.online/video-channels/shiny_dev_series/videos).
 - Special live webinars in partnership with the [RStudio Community](https://community.rstudio.com) to connect with the brilliant developers both within the Shiny team and those creating awesome applications and packages in the Shiny community.
 
 {{% alert note %}}
