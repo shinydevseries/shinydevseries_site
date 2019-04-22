@@ -9,11 +9,11 @@ title = "Shiny Developer Series"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://shinydevseries.com"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = ""
+copyright = "&copy; [Eric Nantz](https://r-podcast.org) 2019 | [Github](https://github.com/rpodcast) | [Twitter](https://twitter.com/thercast)"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
@@ -45,6 +45,8 @@ preserveTaxonomyNames = true
 [outputs]
   home = [ "HTML", "CSS", "RSS", "JSON" ]
   section = [ "HTML", "RSS" ]
+  taxonomy = [ "HTML", "RSS" ]
+  taxonomyTerm = [ "HTML", "RSS" ]
 
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
