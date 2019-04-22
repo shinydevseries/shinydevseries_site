@@ -1,6 +1,5 @@
 +++
 title = "{{ replace .Name "-" " " | title }}"
-subtitle = ""
 
 # Add a summary to display on homepage (optional).
 summary = ""
@@ -23,7 +22,7 @@ description = ""
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = []
-categories = []
+categories = ["episode"]
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
