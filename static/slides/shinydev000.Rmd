@@ -242,7 +242,7 @@ class: center, middle, inverse
 
 * Joint collaboration with Curtis Kephart (RStudio's community organizer) to host live webinars throughout 2019!
 * Interviews with members of the Shiny RStudio team along with package / application authors in the Shiny community
-* First webinar: April 27 (2019) with Shiny `r emo::ji("package")` co-author and RStudio software engineer [Winston Chang](https://github.com/wch)!
+* First webinar: April 26 (2019) with Shiny `r emo::ji("package")` co-author and RStudio software engineer [Winston Chang](https://github.com/wch)!
 ]
 
 ???
