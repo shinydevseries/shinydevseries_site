@@ -46,7 +46,7 @@ Shiny Developer Series
 ]
 ]
 
-## Episode 2: `golem` and Effective
+## Episode 2: `{golem}` and Effective
 ## Shiny Development Methods
 ### Special Guest: Colin Fay
 
@@ -67,36 +67,32 @@ Colin Fay is a data scientist & R hacker at ThinkR, an organization that offers 
 
 .pull-right[
 
-![](https://thinkr.fr/wp-content/uploads/colin.jpg)
+![:scale 60%](https://thinkr.fr/wp-content/uploads/colin.jpg)
 
 ]
 
 ---
 class: inverse, center, top
-background-image: url(img/bridge_picture.jpg)
-background-size: cover
+background-image: url(img/golem.png)
+background-size: contain
 
-# Journey to Production
+# Uncovering Golem
 
 ---
 class: center, top
+background-size: contain
+background-image: url(img/)
 
-# Design Principles
+# Setting up for Success
 
-.pull-left[
-![:scale 80%](img/lego-blocks-vector-clipart.png)
-]
-
-.pull-right[
-![](img/lego_med_difficulty.jpg)
-]
+![:scale 45%](img/user-experience-memes-25.jpg)
 
 ---
-class: inverse, center, top
-background-image: url(img/horizon.jpg)
+class: center, top
+background-image: url(img/perspective.jpg)
 background-size: cover
 
-# Looking Ahead
+# Another Perspective
 
 ---
 class: inverse, center, top
