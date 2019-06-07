@@ -105,7 +105,7 @@ background-size: contain
 
 # Stay Tuned!
 
-Keep watching [community.rstudio.com](https://community.rstudio.com) for the next __Shiny Developer Series__ webinars
+Visit [pages.rstudio.net/shiny_dev_series.html](https://pages.rstudio.net/shiny_dev_series.html) for the complete schedule and to sign up for future webinars!
 
 Recording of webinars along with additional content will be posted on [shinydevseries.com](https://shinydevseries.com)
 
