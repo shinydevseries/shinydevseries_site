@@ -1,5 +1,5 @@
 ---
-title: 'Episode 2: `golem` and Effective Shiny Development Methods'
+title: 'Episode 2: {golem} and Effective Shiny Development Methods'
 author: Eric Nantz
 date: '2019-06-07'
 slug: episode-2-golem
