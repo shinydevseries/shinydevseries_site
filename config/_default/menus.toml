@@ -27,7 +27,7 @@
 [[main]]
   pre = "<i class=\"fas fa-envelope\"></i>"
   name = "Contact"
-  url = "https://contact.shinydevseries.com"
+  url = "https://rpodcast.shinyapps.io/shinydevseriescontact/"
   weight = 60
 
 # Link to a PDF of your resume/CV from the menu.
