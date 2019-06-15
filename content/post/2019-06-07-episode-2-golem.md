@@ -17,7 +17,7 @@ image:
 
 ## Resources mentioned in the episode
 
-* Follow-up [thread](https://community.rstudio.com/t/shiny-developer-series-episode-1-follow-up-thread/29491) for the episode on RStudio Community
+* Follow-up [thread](https://community.rstudio.com/t/shiny-developer-series-episode-2-follow-up-thread-colin-fay-on-golem-and-effective-shiny-development-methods/32618) for the episode on RStudio Community
 * `{golem}` - A Framework for Building Robust Shiny Apps:  [thinkr-open.github.io/golem](https://thinkr-open.github.io/golem/)
 * __ThinkR__ - R Engineering, training, and consulting: [thinkr.fr](https://thinkr.fr/)
 * Building Big Shiny Apps - A Workflow: [thinkr-open.github.io/building-shiny-apps-workflow](https://thinkr-open.github.io/building-shiny-apps-workflow/)
