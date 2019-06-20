@@ -16,7 +16,7 @@ baseurl = "https://shinydevseries.com"
 copyright = "&copy; [Eric Nantz](https://r-podcast.org) 2019 | [Github](https://github.com/rpodcast) | [Twitter](https://twitter.com/thercast)"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-32172804-1"
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
