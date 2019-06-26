@@ -109,7 +109,7 @@ plugins_js  = []
 ############################
 
 # Get user avatars from Gravatar.com? (true/false)
-gravatar = true
+gravatar = false
 
 # Align the main menu to the right of the page? (true/false)
 menu_align_right = false

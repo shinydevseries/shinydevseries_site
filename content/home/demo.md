@@ -63,8 +63,8 @@ The goals of the **Shiny Developer Series** are to showcase the innovative appli
 |--------------------------------------------------------|-------------------|--------------------------------|---------------
 | Shiny Development - Past and Future                    | Winston Chang     | April 26 1:00-2:00 PM EST      | [ep1](ep1)
 | `{golem}` and Effective Shiny Development Methods      | Colin Fay         | June 7 11:00 AM - 12:00 PM EST | [ep2](ep2)
-| `{googleAnalyticsR}` and linking Shiny to complex APIs | Mark Edmondson    | June 21 12:00 - 1:00 PM EST    |
-| Rinterface and `{bs4Dash}` - Building beautiful dashboards | David Granjon | August 9 12:00 - 1:00 PM EST   |
+| `{googleAnalyticsR}` and linking Shiny to complex APIs | Mark Edmondson    | June 21 12:00 - 1:00 PM EST    | [ep3](ep3)
+| Rinterface and `{bs4Dash}` - Building beautiful dashboards | David Granjon | August 9 12:00 - 1:00 PM EST   | 
 | `{shinysense}` and custom javascript visualizations    | Nick Strayer      | September 13 11:00 AM - 12:00 PM EST |
 | `{shinyjqui}` | Yang Tang | October 25 11:00 AM - 12:00 PM EST | 
 | `{shinyWidgets}` and dreamRs | Victor Perrier & Fanny Meyer | November 8 11:00 AM - 12:00 PM EST |
