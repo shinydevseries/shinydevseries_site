@@ -9,7 +9,7 @@ authors = ["dgranjon"]
 superuser = false
 
 # Role/position
-role = "Shiny consultatant & developer"
+role = "Shiny consultant & developer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
