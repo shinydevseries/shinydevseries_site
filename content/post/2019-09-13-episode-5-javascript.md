@@ -4,7 +4,7 @@ authors: ['nstrayer', 'admin', 'ckephart']
 date: '2019-09-13'
 slug: episode-5-shinysense
 aliases: /ep5
-youtube: '0oi6tGzHUHM'
+youtube: 'W-yifR-RtFY'
 summary: 'Recording of RStudio webinar: Exploring the power of custom javascript and shinysense with Nick Strayer!'
 description: 'In this webinar originally broadcast live in partnership with RStudio Community, [Nick Strayer](http://nickstrayer.me) joins Eric and Curtis to share the awesome possibilities when combining the power of javascript with Shiny!  Nick shares the origins of his amazing [`{shinysense}`](http://nickstrayer.me/shinysense) package for linking many mobile device interactions with Shiny, and we go hands-on with practical demonstrations of leveraging [`{r2d3}`](https://rstudio.github.io/r2d3) to quickly prototype D3 javascript visualizations directly in R. If you would like to continue the discussion please visit the dedicated [thread](https://community.rstudio.com/t/follow-up-thread-for-webinar-shinysense-and-custom-javascript-visualizations/39767) at the [RStudio Community!](https://community.rstudio.com)'
 categories:
