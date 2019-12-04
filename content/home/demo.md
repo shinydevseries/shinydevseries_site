@@ -68,7 +68,7 @@ The goals of the **Shiny Developer Series** are to showcase the innovative appli
 | `{shinysense}` and custom javascript visualizations    | Nick Strayer      | September 13 11:00 AM - 12:00 PM EST | [ep5](ep5)
 | `{shinyjqui}` | Yang Tang | October 25 11:00 AM - 12:00 PM EST | [ep6](ep6)
 | `{shinyWidgets}` and dreamRs | Victor Perrier & Fanny Meyer | November 15 11:00 AM - 12:00 PM EST | [ep7](ep7) 
-| `{yonder}` | Nathan Teetor | December 6 1:00 - 2:00 PM EST | 
+| `{yonder}` | Nathan Teetor | December 6 2:00 - 3:00 PM EST | 
 
 {{% alert note %}}
 Pardon our dust!  This site is still under construction and as the series matures, more content will be added.
