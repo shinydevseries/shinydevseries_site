@@ -55,21 +55,3 @@ The goals of the **Shiny Developer Series** are to showcase the innovative appli
    + [Google Play Podcasts](https://play.google.com/music/listen#/ps/Ig3v3fo6nq6oaua6e3ykcqcrvry)
    + [PocketCasts](https://pca.st/8p3v)
    + [General RSS Feed](https://feeds.fireside.fm/shinydevseries/rss)
-- Special live webinars throughout 2019 in partnership with the [RStudio Community](https://community.rstudio.com) to connect with the brilliant developers both within the Shiny team and those creating awesome applications and packages in the Shiny community.  Visit the [sign-up page](https://pages.rstudio.net/shiny_dev_series.html) to register and receive email updates!
-
-### Webinar Schedule
-
-| Title                                                  | Guest(s)          | Date/Time                      | Recording Link
-|--------------------------------------------------------|-------------------|--------------------------------|---------------
-| Shiny Development - Past and Future                    | Winston Chang     | April 26 1:00-2:00 PM EST      | [ep1](ep1)
-| `{golem}` and Effective Shiny Development Methods      | Colin Fay         | June 7 11:00 AM - 12:00 PM EST | [ep2](ep2)
-| `{googleAnalyticsR}` and linking Shiny to complex APIs | Mark Edmondson    | June 21 12:00 - 1:00 PM EST    | [ep3](ep3)
-| Rinterface and `{bs4Dash}` - Building beautiful dashboards | David Granjon | August 9 12:00 - 1:00 PM EST   | [ep4](ep4)
-| `{shinysense}` and custom javascript visualizations    | Nick Strayer      | September 13 11:00 AM - 12:00 PM EST | [ep5](ep5)
-| `{shinyjqui}` | Yang Tang | October 25 11:00 AM - 12:00 PM EST | [ep6](ep6)
-| `{shinyWidgets}` and dreamRs | Victor Perrier & Fanny Meyer | November 15 11:00 AM - 12:00 PM EST | [ep7](ep7) 
-| `{yonder}` | Nathan Teetor | December 6 2:00 - 3:00 PM EST | [ep8](ep8)
-
-{{% alert note %}}
-Pardon our dust!  This site is still under construction and as the series matures, more content will be added.
-{{% /alert %}}
