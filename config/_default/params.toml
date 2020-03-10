@@ -5,14 +5,14 @@ GithubEdit = "https://github.com/rpodcast/shinydevseries_site/edit/master/conten
 GithubSource = "https://github.com/rpodcast/shinydevseries_site/blob/master/content/"
 
 # Color theme.
-#   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-color_theme = "ocean"
+#   Choose from `minimal`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
+theme = "ocean"
 # Enable users to switch between day and night mode?
 day_night = true
 
 # Font style.
-#   Choose from `default`, `classic`, or `playfair`.
-font = "default"
+#   Choose from `minimal`, `classic`, or `playfair`.
+font = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
@@ -55,8 +55,8 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "thercast@gmail.com"
 phone = ""
-address = ""
-
+#address = {street = "450 Serra Mall", city = "Stanford", region = "CA", postcode = "94305", country = "United States", country_code = "US"}
+address = { }
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""
 
@@ -73,26 +73,27 @@ contact_links = [
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
 
-# Display a map.
-# To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
-# a map provider below.
-# To use Google Maps, set `map = 1` and enter your API key that can be obtained here:
-#   https://developers.google.com/maps/documentation/javascript/get-api-key
-# To use OpenStreetMap tiles, set `map = 2`.
-# To use OpenStreetMap on a high traffic site, set `map = 3` and enter your API key that can be obtained here:
-#   https://www.mapbox.com/studio/account/tokens
-# To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-#
-# Map provider:
-#   0: No map
-#   1: Google Maps
-#   2: OpenStreetMap (Mapnik)
-#   3: OpenStreetMap (Mapbox)
-map = 0
-map_api_key = ""
-latitude = "37.4275"
-longitude = "-122.1697"
-zoom = 15
+############################
+## Maps
+############################
+[map]
+  # To show your address on a map in the Contact widget, enter your latitude and longitude (above)
+  # and choose a map provider below.
+  #
+  # To use Google Maps, set `engine` to 1 and enter your API key that can be obtained here:
+  #   https://developers.google.com/maps/documentation/javascript/get-api-key
+  # To use OpenStreetMap tiles, set `engine` to 2.
+  # To use OpenStreetMap on a high traffic site, set `engine` to 3 and enter your API key that can be obtained here:
+  #   https://www.mapbox.com/studio/account/tokens
+  #
+  # Map provider:
+  #   0: No map
+  #   1: Google Maps
+  #   2: OpenStreetMap (Mapnik)
+  #   3: OpenStreetMap (Mapbox)
+  engine = 0
+  api_key = ""
+  zoom = 15
 
 ############################
 ## Plugins                ##
@@ -122,6 +123,9 @@ comment_count = false
 
 # Display next/previous section pager? (true/false)
 section_pager = false
+
+# Link authors to their profile page? (true/false)
+link_authors = true
 
 # Enable in-built social sharing buttons? (true/false)
 sharing = true
@@ -161,3 +165,19 @@ sharing = true
     api_key = ""
     index_name = ""
     show_logo = false
+
+# Comments.
+[comments]
+  # Comment provider:
+  #   0: Disabled
+  #   1: Disqus (https://disqus.com)
+  #   2: Commento (https://commento.io)
+  engine = 0
+
+  # Which page types are commentable?
+  commentable = {page = true, post = true, docs = true}
+
+  # Configuration of Disqus.
+  [comments.disqus]
+    shortname = ""  # Paste the shortname from your Disqus dashboard.
+    show_count = true  # Show comment count in page header? (true/false)
