@@ -6,7 +6,7 @@ slug: episode-9-shinyedu
 aliases: /ep9
 youtube: 'eGpTXM0hUqA'
 summary: 'Shiny Dev Center & education tips with Mine Cetinkaya-Rundel'
-description: 'The Shiny Developer Series is back!  In our first session of 2020, we are joined by professional educator and data scientist Mine Cetinkaya-Rundel to get the inside story of the newly updated [Shiny Dev Center](https://shiny.rstudio.com) (including a major revision of the Shiny Gallery) and the insights RStudio gained from the Shiny Contest.  Also Mine shares her advice on developing educational material for Shiny users and where she sees future opportunities in this evolving space.'
+description: 'The Shiny Developer Series is back!  In our first session of 2020, we are joined by professional educator and data scientist [Mine Cetinkaya-Rundel](https://twitter.com/minebocek) from RStudio to get the inside story of the newly updated [Shiny Dev Center](https://shiny.rstudio.com) (including a major revision of the Shiny Gallery) and the insights RStudio gained from the Shiny Contest.  Also Mine shares her advice on developing educational material for Shiny users and where she sees future opportunities in this evolving space.'
 categories:
   - episode
 tags: []
