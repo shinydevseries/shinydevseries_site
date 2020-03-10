@@ -55,5 +55,3 @@ The goals of the **Shiny Developer Series** are to showcase the innovative appli
    + [Google Play Podcasts](https://play.google.com/music/listen#/ps/Ig3v3fo6nq6oaua6e3ykcqcrvry)
    + [PocketCasts](https://pca.st/8p3v)
    + [General RSS Feed](https://feeds.fireside.fm/shinydevseries/rss)
-- Special live webinars throughout 2019 in partnership with the [RStudio Community](https://community.rstudio.com) to connect with the brilliant developers both within the Shiny team and those creating awesome applications and packages in the Shiny community.  Visit the [sign-up page](https://pages.rstudio.net/shiny_dev_series.html) to register and receive email updates!
-
