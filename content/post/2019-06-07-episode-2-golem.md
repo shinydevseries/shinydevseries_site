@@ -20,7 +20,7 @@ image:
 * Follow-up [thread](https://community.rstudio.com/t/shiny-developer-series-episode-2-follow-up-thread-colin-fay-on-golem-and-effective-shiny-development-methods/32618) for the episode on RStudio Community
 * `{golem}` - A Framework for Building Robust Shiny Apps:  [thinkr-open.github.io/golem](https://thinkr-open.github.io/golem/)
 * __ThinkR__ - R Engineering, training, and consulting: [thinkr.fr](https://thinkr.fr/)
-* Building Big Shiny Apps - A Workflow: [thinkr-open.github.io/building-shiny-apps-workflow](https://thinkr-open.github.io/building-shiny-apps-workflow/)
+* Engineering Production-Grade Shiny Apps: [engineering-shiny.org](https://engineering-shiny.org/)
 * Don't make me think, Steve Krug: [en.wikipedia.org/wiki/Don%27t_Make_Me_Think](https://en.wikipedia.org/wiki/Don%27t_Make_Me_Think)
 * The Design of Everyday things: [en.wikipedia.org/wiki/The_Design_of_Everyday_Things](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things)
 * Refactoring UI: [refactoringui.com](https://refactoringui.com/)
