@@ -4,7 +4,7 @@ authors: ['jcoene', 'admin', 'ckephart']
 date: '2020-07-07'
 slug: episode-10-coene
 aliases: /ep10
-youtube: 'BYtoQQHmmOM'
+youtube: 'DOjbKYJ8R_s'
 summary: 'Examining how improving user experience can lift Shiny applications to production level!'
 description: "In this packed episode of the Shiny Developer Series, we are joined by the very talented John (JP) Coene to explore tools and skills that can ease your journey in creating production-grade Shiny applications!  We examine the backstory of John's highly-regarded Coronavirus mobile-first Shiny application, how you can use his excellent {waiter} and {server} packages to improve user experience, and much more!"
 categories:
@@ -32,25 +32,25 @@ image:
 
 0:00 -  Intro
 
-[2:37](https://www.youtube.com/watch?v=BYtoQQHmmOM&t=2m37s) - Covid19 tracker - A popular Coronavirus Tracker app, built on shiny mobile: https://johncoene.shinyapps.io/contest-coronavirus
+[2:37](https://www.youtube.com/watch?v=DOjbKYJ8R_s&t=2m37s) - Covid19 tracker - A popular Coronavirus Tracker app, built on shiny mobile: https://johncoene.shinyapps.io/contest-coronavirus
 
-[5:37](https://www.youtube.com/watch?v=BYtoQQHmmOM&t=5m37s) - Golem - Within the Covid19 Tracker discussion, on the usefulness of golem for building shiny apps with best practices. 
+[5:37](https://www.youtube.com/watch?v=DOjbKYJ8R_s&t=5m37s) - Golem - Within the Covid19 Tracker discussion, on the usefulness of golem for building shiny apps with best practices. 
 
-[8:57](https://www.youtube.com/watch?v=BYtoQQHmmOM&t=8m57s) - On working with shinyMobile  https://rinterface.github.io/shinyMobile, Maintainer; David Granjon
+[8:57](https://www.youtube.com/watch?v=DOjbKYJ8R_s&t=8m57s) - On working with shinyMobile  https://rinterface.github.io/shinyMobile, Maintainer; David Granjon
 
-[12:47](https://www.youtube.com/watch?v=BYtoQQHmmOM&t=12m47s) - Shiny with R in Production and at scale. 
+[12:47](https://www.youtube.com/watch?v=DOjbKYJ8R_s&t=12m47s) - Shiny with R in Production and at scale. 
 
-[17:27](https://www.youtube.com/watch?v=BYtoQQHmmOM&t=17m27s) - Waiter package. A key, simple way to improve the experience of your shiny app is giving the user clear information about how quickly app-components will take to load. https://shiny.john-coene.com/waiter/ 
+[17:27](https://www.youtube.com/watch?v=DOjbKYJ8R_s&t=17m27s) - Waiter package. A key, simple way to improve the experience of your shiny app is giving the user clear information about how quickly app-components will take to load. https://shiny.john-coene.com/waiter/ 
 
-[32:57](https://www.youtube.com/watch?v=BYtoQQHmmOM&t=32m57s) - On the importance of ensuring your shiny apps looks and feels good to the end user
+[32:57](https://www.youtube.com/watch?v=DOjbKYJ8R_s&t=32m57s) - On the importance of ensuring your shiny apps looks and feels good to the end user
 
-[34:10](https://www.youtube.com/watch?v=BYtoQQHmmOM&t=34m10s) sever. More pleasing and better handling of shiny app error & disconnection messages. https://sever.john-coene.com
+[34:10](https://www.youtube.com/watch?v=DOjbKYJ8R_s&t=34m10s) sever. More pleasing and better handling of shiny app error & disconnection messages. https://sever.john-coene.com
 
-[38:57](https://www.youtube.com/watch?v=BYtoQQHmmOM&t=38m57s) - Building htmlwidgets for shiny apps https://blog.john-coene.com/posts/2018-01-01-widget/
+[38:57](https://www.youtube.com/watch?v=DOjbKYJ8R_s&t=38m57s) - Building htmlwidgets for shiny apps https://blog.john-coene.com/posts/2018-01-01-widget/
 
-[44:14](https://www.youtube.com/watch?v=BYtoQQHmmOM&t=44m14s) echarts4r. A package for powerful visualizations with R. It is a good showcase for how htmlwidgets can interact with your shiny-app, sending messages between your user and your server to improve the types of interactions possible with your visualizations.  https://echarts4r.john-coene.com
+[44:14](https://www.youtube.com/watch?v=DOjbKYJ8R_s&t=44m14s) echarts4r. A package for powerful visualizations with R. It is a good showcase for how htmlwidgets can interact with your shiny-app, sending messages between your user and your server to improve the types of interactions possible with your visualizations.  https://echarts4r.john-coene.com
 
-[57:27](https://www.youtube.com/watch?v=BYtoQQHmmOM&t=57m27s) Advice for Shiny developers that want to take that “next step” in building complex applications for production use. 
+[57:27](https://www.youtube.com/watch?v=DOjbKYJ8R_s&t=57m27s) Advice for Shiny developers that want to take that “next step” in building complex applications for production use. 
   - Hadley Wickham’s Mastering-shiny.org (still under development)
   - Divad nojnarg - outstanding shiny ui,  https://divadnojnarg.github.io/outstanding-shiny-ui/intro.html
   - Colin Fay’s  “Engineering Production-Grade Shiny Apps” at https://engineering-shiny.org/
