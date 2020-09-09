@@ -1,12 +1,12 @@
 ---
-title: 'Episode 12: Barrett Schloerke Part 1 (reactlog)'
+title: 'Episode 12: Barret Schloerke Part 1 (reactlog)'
 authors: ['bschloerke', 'admin', 'ckephart']
 date: '2020-09-09'
 slug: episode-12-barrett1
 aliases: /ep12
 youtube: 'RcnfYcSsY8w'
 summary: 'Under the reactivity curtain with Barrett Schloerke!'
-description: "In episode 12 of the Shiny Developer Series, we begin a multi-part series with RStudio software engineer on the Shiny team Barrett Shloerke! In part 1 we learn more about Barrett’s journey to the Shiny team and take a deep dive into the very powerful `reactlog` framework to help users shed some light on what can be a confusing world of reactivity in their applications.  Barrett leads us through interactive demonstrations of `reactlog` applied to simple and complex applications to pinpoint various issues on reactive logic and the flow of information from inputs to outputs. "
+description: "In episode 12 of the Shiny Developer Series, we begin a multi-part series with RStudio software engineer on the Shiny team Barret Schloerke! In part 1 we learn more about Barret’s journey to the Shiny team and take a deep dive into the very powerful `reactlog` framework to help users shed some light on what can be a confusing world of reactivity in their applications.  Barret leads us through interactive demonstrations of `reactlog` applied to simple and complex applications to pinpoint various issues on reactive logic and the flow of information from inputs to outputs. "
 categories:
   - episode
 tags: []
@@ -32,7 +32,7 @@ image:
 
 0:00 - Intro
 
-[0:42](https://www.youtube.com/watch?v=RcnfYcSsY8w&t=0m42s) - Barrett’s background, how he got started with R, Shiny, and RStudio. 
+[0:42](https://www.youtube.com/watch?v=RcnfYcSsY8w&t=0m42s) - Barret’s background, how he got started with R, Shiny, and RStudio. 
 
 [3:41](https://www.youtube.com/watch?v=RcnfYcSsY8w&t=3m41s) - Bokey, Trelliscope, Ryan Hafen
 

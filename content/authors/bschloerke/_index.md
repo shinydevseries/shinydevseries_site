@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Barrett Schloerke"
+name = "Barret Schloerke"
 
 # Username (this should match the folder name)
 authors = ["bschloerke"]
@@ -57,4 +57,4 @@ user_groups = []
 
 +++
 
-Barrett is a software engineer on the Shiny development team at RStudio. Barrett received his PhD in statistics from Purdue University specializing in large data visualization under the direction of Dr. Ryan Hafen and Dr. William Cleveland. Barrett works on many different parts of the Shiny ecosystem including core packages like `reactlog`, `shinytest`, and `shinyloadtest`, as well as non-Shiny packages `plumber`, `gt`, and `leaflet`.
+Barret is a software engineer on the Shiny development team at RStudio. Barret received his PhD in statistics from Purdue University specializing in large data visualization under the direction of Dr. Ryan Hafen and Dr. William Cleveland. Barret works on many different parts of the Shiny ecosystem including core packages like `reactlog`, `shinytest`, and `shinyloadtest`, as well as non-Shiny packages `plumber`, `gt`, and `leaflet`.
