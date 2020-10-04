@@ -5,7 +5,7 @@ date: '2020-10-03'
 slug: episode-14-barrett3
 aliases: /ep14
 youtube: 'zqV4nUiO7-4'
-summary: ''
+summary: 'A glimpse at making learning more fun with learnr!'
 description: "We conclude our multi-part series with RStudio software engineer Barret Schloerke with an in-depth look at the learnr package and how Shiny plays a huge role in powering the many features and extensibility available! Barret walks us through two showcases of learnr in action with the RStudio primer tutorials as well as the eye-catching naniar missing values tutorial by Allison Horst.  Plus we get a preview of the great features coming up in the next release, and advice for Shiny developers looking to bring their skills to the next level."
 categories:
   - episode
