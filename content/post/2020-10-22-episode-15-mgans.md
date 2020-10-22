@@ -31,16 +31,29 @@ image:
 ## Episode Timestamps
 
 [0:00](https://www.youtube.com/watch?v=wN6OXxE8Fro&t=0m0s) Episode introduction
+
 [4:30](https://www.youtube.com/watch?v=wN6OXxE8Fro&t=4m30s) TidyBlocks tidyblocks.tech. A block-based tool for teaching basic data science.
+
 [7:00](https://www.youtube.com/watch?v=wN6OXxE8Fro&t=7m00s) Garrick Aden-Buie, https://www.garrickadenbuie.com/
+
 [7:45](https://www.youtube.com/watch?v=wN6OXxE8Fro&t=7m45s) shinyBody. Everyone asks, “What are good ways to level up on R and Shiny?”, the shinyBody Shiny app is a relatively simple, focused Shiny app that helps you get JavaScript started talking to R.
+
 [14:20](https://www.youtube.com/watch?v=wN6OXxE8Fro&t=14m20s) David Granjon’s Outstanding User Interfaces
+
 [14:35](https://www.youtube.com/watch?v=wN6OXxE8Fro&t=14m35s) R + Shiny for JS Visualizations. JavaScript for Data Science, website. Find it on Google Books, amazon
+
 [15:25](https://www.youtube.com/watch?v=wN6OXxE8Fro&t=15m25s) tidyCDISC Shiny App. tidyCDISC CDISC is a file format for clinical trials. This app helps you explore your CDISC data, following common patterns and at least as a first pass, helping you produce standard tables and figures the FDA will want to see.
+
 [17:18](https://www.youtube.com/watch?v=wN6OXxE8Fro&t=17m18s) golem, not just a nice tool for Shiny app development , but also for multi-developer, collaborative Shiny app development. “golem: If you’re working with a team of people, I highly recommend it, for easier collaboration.”
+
 [19:00](https://www.youtube.com/watch?v=wN6OXxE8Fro&t=19m00s) CDISC table generator.
+
 [25:20](https://www.youtube.com/watch?v=wN6OXxE8Fro&t=25m20s) plot.ly in shiny apps. Carson’s Book on ploy.ly with R.
+
 [27:15](https://www.youtube.com/watch?v=wN6OXxE8Fro&t=27m15s) shiny timevis by Dean Attali. On github.
+
 [29:15](https://www.youtube.com/watch?v=wN6OXxE8Fro&t=29m15s) Extending Sharla Gelfand’s ggkeyboard into shinykeyboard made with Will Bonnell. A visual keyboard, a tool for added accessibility with R.
+
 [33:50](https://www.youtube.com/watch?v=wN6OXxE8Fro&t=33m50s) “What advice do you have for Shiny developers in our audience who want to take their skills to the next level?”
+
 [36:20](https://www.youtube.com/watch?v=wN6OXxE8Fro&t=36m20s) Episode conclusion
