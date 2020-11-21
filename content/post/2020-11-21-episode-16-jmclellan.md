@@ -6,7 +6,7 @@ slug: episode-16-jmclellan
 aliases: /ep16
 youtube: 'VhyIKMFDTl4' 
 summary: 'Using Shiny and htmlwidgets to help out friends and work alike!'
-description: "In episode 16 of the Shiny Developer Series, we welcome software developer Jiena McLellan!  Jiena shares how she has created many useful packages and Shiny applications to help not only with her day job, but for fun personal projects benefiting her friends and family too!  We dive deep into her innovative DT-Editor Shiny module, as well as how she developed packages based on htmlwidgets such as the flashCard package for teaching yourself new concepts.  "
+description: "In episode 16 of the Shiny Developer Series, we welcome software developer Jiena McLellan!  Jiena shares how she has created many useful packages and Shiny applications to help not only with her day job, but for fun personal projects benefiting her friends and family too!  We dive deep into her innovative DT-Editor Shiny module, as well as how she developed packages based on htmlwidgets such as the flashCard package for teaching yourself new concepts."
 categories:
   - episode
 tags: []
