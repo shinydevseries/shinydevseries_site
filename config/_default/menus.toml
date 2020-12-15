@@ -30,6 +30,12 @@
   url = "https://rpodcast.shinyapps.io/shinydevseriescontact/"
   weight = 60
 
+[[main]]
+  pre = "<i class=\"fas dollar-sign\"></i>"
+  name = "Donate"
+  url = "https://streamelements.com/shinydeveloperseries/tip"
+  weight = 70
+
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[main]]
