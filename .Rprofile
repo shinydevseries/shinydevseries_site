@@ -2,15 +2,41 @@
 if (Sys.getenv("TERM_PROGRAM") == "vscode") {
     source(file.path(Sys.getenv(if (.Platform$OS.type == "windows") "USERPROFILE" else "HOME"), ".vscode-R", "init.R"))
 }
+source("renv/activate.R")
 
-if (interactive() && Sys.getenv("TERM_PROGRAM") == "vscode") {
-  if ("httpgd" %in% .packages(all.available = TRUE)) {
+if (Sys.getenv("TERM_PROGRAM") == "vscode") {
+    # obtain list of packages in renv library currently
+    project <- renv:::renv_project_resolve(NULL)
+    lib_packages <- names(unclass(renv:::renv_diagnostics_packages_library(project))$Packages)
+
+    # detect whether key packages are already installed
+    # was: !require("languageserver")
+    if (!"languageserver" %in% lib_packages) {
+        message("installing languageserver package")
+        renv::install("languageserver@0.3.8")
+    }
+    
+    if (!"httpgd" %in% lib_packages) {
+        message("installing httpgd package")
+        renv::install("nx10/httpgd")
+    }
+
+    if (!"vscDebugger" %in% lib_packages) {
+        message("installation vscDebugger package")
+        renv::install("ManuelHentschel/vscDebugger@v0.4.3")
+    }
+
+    # use the rstudio addins feature
+    if (!"rstudioapi" %in% lib_packages) {
+        message("installation rstudioapi package")
+        renv::install("rstudioapi")
+    }
+    options(vsc.rstudioapi = TRUE)
+
+    # use the new httpgd plotting device
     options(vsc.plot = FALSE)
     options(device = function(...) {
-      httpgd::httpgd()
-      .vsc.browser(httpgd::httpgdURL(), viewer = "Beside")
+      httpgd:::hgd()
+      .vsc.browser(httpgd::hgd_url(), viewer = "Beside")
     })
-  }
 }
-
-source("renv/activate.R")
