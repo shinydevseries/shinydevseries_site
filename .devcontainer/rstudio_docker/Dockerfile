@@ -9,6 +9,8 @@ FROM rocker/r-ver:4.0.2
 ENV S6_VERSION=v1.21.7.0
 ENV RSTUDIO_VERSION=preview
 ENV PATH=/usr/lib/rstudio-server/bin:$PATH
+ARG HUGO_VERSION=0.67.0
+#ENV PASSWORD=1rstudio
 
 # install key dependencies of rstudio preview edition
 # install radian via python and pip3
@@ -37,9 +39,9 @@ RUN pip3 install radian
 RUN echo "RENV_PATHS_CACHE=/renv/cache" >> /usr/local/lib/R/etc/Renviron
 
 # [Optional] Uncomment this section to add addtional system dependencies needed for project
-# RUN apt-get update \
-#     && export DEBIAN_FRONTEND=noninteractive \
-#     && apt-get -y install --no-install-recommends ---packages list----
+ADD https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz /hugo.tar.gz
+RUN tar -zxvf hugo.tar.gz
+RUN cp /hugo /usr/local/bin/hugo
 
 EXPOSE 8787
 
