@@ -2,18 +2,22 @@ library(dplyr)
 library(lubridate)
 library(clock)
 
-youtube_id <- "mxvMaoXOm70"
+youtube_id <- "84Vg7HKzd2E"
 
 df <- tibble::tribble(
   ~timestamp, ~recalc_flag, ~description,
   "00:00:00", FALSE, "Episode Introduction",
-  "00:01:17", TRUE, "What's new in RinteRface",
-  "00:02:13", TRUE, "Demo of {bs4Dash}",
-  "00:21:39", TRUE, "David's new book: Outstanding User Interfaces with Shiny",
-  "00:35:45", TRUE, "Creating custom dashboard templates",
-  "00:41:23", TRUE, "Moving away from renderUI using custom handlers, and why you should manage content with handlers",
-  "00:44:20", TRUE, "Shiny UI advice, tips for balancing UX with backend performance of the app",
-  "00:54:40", FALSE, "Episode wrapup"
+  "00:06:15", FALSE, "Nick's journey since episode 5",
+  "00:08:10", FALSE, "Shiny app stories - an experimental form of documentation. Most documentation focuses on the *How* to do something, Shiny App Stories focuses on the *Why*",
+  "00:13:15", FALSE, "App Stories in action",
+  "00:16:25", FALSE, "`bindCache()` discussion on speeding up your Shiny app",
+  "00:22:57", FALSE, "Dynamic theming with `{bslib}`",
+  "00:27:00", FALSE, "The usefulness of the `session` object in an Shiny app",
+  "00:32:30", FALSE, "Including web-technologies (like custom js, css, incorporating better design philosiphies) in your Shiny app",
+  "00:39:50", FALSE, "On the Shiny Ecosystem. Nick only recently moved from being an active Shiny developer to being on the core-Shiny team itself",
+  "00:43:35", FALSE, "On Creating great data visualizations and offering data consumers an excellent user experience",
+  "00:56:25", FALSE, "What's the best way to give feedback to the Shiny team?",
+  "01:05:22", FALSE, "Episode wrapup"
 )
 
 df2 <- df %>%
@@ -30,11 +34,12 @@ df2 <- df %>%
                                    as.character(youtube_seconds))
          ) %>%
   select(., -timestamp) %>%
-  select(timestamp = new_time_print, description, youtube_minutes, youtube_seconds) %>%
-  mutate(timestamp_print_clean = glue::glue("{youtube_minutes}:{youtube_seconds}"),
-         timestamp_print_link = glue::glue("[{timestamp_print_clean}](https://youtube.com/watch?v={youtube_id}&t={youtube_minutes}m{youtube_seconds}s)")) %>%
+  select(timestamp = new_time_print, youtube_time = new_time, description, youtube_minutes, youtube_seconds) %>%
+  mutate(timestamp_print_clean = glue::glue("{timestamp}"),
+         timestamp_print_link = glue::glue("[{timestamp_print_clean}](https://youtube.com/watch?v={youtube_id}&t={youtube_time}s)")) %>%
   mutate(website_print = glue::glue("{timestamp_print_link} {description}"),
          youtube_print = glue::glue("{timestamp_print_clean} {description}"))
 
 
 cat(df2$website_print, sep = "\n")
+cat(df2$youtube_print, sep = "\n")
