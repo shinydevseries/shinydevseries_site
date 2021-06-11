@@ -9,11 +9,11 @@ authors = ["nstrayer"]
 superuser = false
 
 # Role/position
-role = "PhD Candidate at Vanderbilt"
+role = "Software Engineer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Vanderbilt Biostatistics", url = "https://www.vanderbilt.edu/" } ]
+organizations = [ { name = "RStudio", url = "https://rstudio.com" } ]
 
 # Short bio (displayed in user profile at end of posts)
 #bio = "Creator and host of the Shiny Developer Series"
@@ -63,5 +63,5 @@ user_groups = []
 
 +++
 
-Nick Strayer is a PhD candidate in biostatistics at Vanderbilt University. Nick has been at the forefront of telling powerful stories through data analyses and visualization, such as in his previous roles at the New York Times and the Johns Hopkins Data Science Lab. He has authored many R packages leveraging the power of javascript within R & Shiny, such as  [shinysense](http://nickstrayer.me/shinysense) and [manhattanPlotr](https://github.com/nstrayer/manhattanPlotr).
+Nick Strayer is a software engineer on the Shiny team at RStudio. Nick has been at the forefront of telling powerful stories through data analyses and visualization, such as in his previous roles at the New York Times and the Johns Hopkins Data Science Lab. He has authored many R packages leveraging the power of javascript within R & Shiny, such as  [shinysense](http://nickstrayer.me/shinysense) and [manhattanPlotr](https://github.com/nstrayer/manhattanPlotr).
 
