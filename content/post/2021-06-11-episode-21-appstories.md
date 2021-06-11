@@ -26,16 +26,15 @@ image:
 
 ## Episode Timestamps
 
-[00:00:00](https://youtube.com/watch?v=84Vg7HKzd2E&t=0s) Episode Introduction
-[00:06:15](https://youtube.com/watch?v=84Vg7HKzd2E&t=375s) Nick's journey since episode 5
-[00:08:10](https://youtube.com/watch?v=84Vg7HKzd2E&t=490s) Shiny app stories - an experimental form of documentation. Most documentation focuses on the *How* to do something, Shiny App Stories focuses on the *Why*
-[00:13:15](https://youtube.com/watch?v=84Vg7HKzd2E&t=795s) App Stories in action
-[00:16:25](https://youtube.com/watch?v=84Vg7HKzd2E&t=985s) `bindCache()` discussion on speeding up your Shiny app
-[00:22:57](https://youtube.com/watch?v=84Vg7HKzd2E&t=1377s) Dynamic theming with `{bslib}`
-[00:27:00](https://youtube.com/watch?v=84Vg7HKzd2E&t=1620s) The usefulness of the `session` object in an Shiny app
-[00:32:30](https://youtube.com/watch?v=84Vg7HKzd2E&t=1950s) Including web-technologies (like custom js, css, incorporating better design philosiphies) in your Shiny app
-[00:39:50](https://youtube.com/watch?v=84Vg7HKzd2E&t=2390s) On the Shiny Ecosystem. Nick only recently moved from being an active Shiny developer to being on the core-Shiny team itself
-[00:43:35](https://youtube.com/watch?v=84Vg7HKzd2E&t=2615s) On Creating great data visualizations and offering data consumers an excellent user experience
-[00:56:25](https://youtube.com/watch?v=84Vg7HKzd2E&t=3385s) What's the best way to give feedback to the Shiny team?
-[01:05:22](https://youtube.com/watch?v=84Vg7HKzd2E&t=3922s) Episode wrapup
-
+[00:00:00](https://youtube.com/watch?v=84Vg7HKzd2E&t=0s) Episode Introduction <br> 
+[00:06:15](https://youtube.com/watch?v=84Vg7HKzd2E&t=375s) Nick's journey since episode 5 <br> 
+[00:08:10](https://youtube.com/watch?v=84Vg7HKzd2E&t=490s) Shiny app stories - an experimental form of documentation. Most documentation focuses on the *How* to do something, Shiny App Stories focuses on the *Why* <br> 
+[00:13:15](https://youtube.com/watch?v=84Vg7HKzd2E&t=795s) App Stories in action <br> 
+[00:16:25](https://youtube.com/watch?v=84Vg7HKzd2E&t=985s) `bindCache()` discussion on speeding up your Shiny app <br> 
+[00:22:57](https://youtube.com/watch?v=84Vg7HKzd2E&t=1377s) Dynamic theming with `{bslib}` <br> 
+[00:27:00](https://youtube.com/watch?v=84Vg7HKzd2E&t=1620s) The usefulness of the `session` object in an Shiny app <br> 
+[00:32:30](https://youtube.com/watch?v=84Vg7HKzd2E&t=1950s) Including web-technologies (like custom js, css, incorporating better design philosiphies) in your Shiny app <br> 
+[00:39:50](https://youtube.com/watch?v=84Vg7HKzd2E&t=2390s) On the Shiny Ecosystem. Nick only recently moved from being an active Shiny developer to being on the core-Shiny team itself <br> 
+[00:43:35](https://youtube.com/watch?v=84Vg7HKzd2E&t=2615s) On Creating great data visualizations and offering data consumers an excellent user experience <br> 
+[00:56:25](https://youtube.com/watch?v=84Vg7HKzd2E&t=3385s) What's the best way to give feedback to the Shiny team? <br> 
+[01:05:22](https://youtube.com/watch?v=84Vg7HKzd2E&t=3922s) Episode wrapup 

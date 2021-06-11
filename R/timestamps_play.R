@@ -37,7 +37,7 @@ df2 <- df %>%
   select(timestamp = new_time_print, youtube_time = new_time, description, youtube_minutes, youtube_seconds) %>%
   mutate(timestamp_print_clean = glue::glue("{timestamp}"),
          timestamp_print_link = glue::glue("[{timestamp_print_clean}](https://youtube.com/watch?v={youtube_id}&t={youtube_time}s)")) %>%
-  mutate(website_print = glue::glue("{timestamp_print_link} {description}"),
+  mutate(website_print = glue::glue("{timestamp_print_link} {description} <br> "),
          youtube_print = glue::glue("{timestamp_print_clean} {description}"))
 
 
