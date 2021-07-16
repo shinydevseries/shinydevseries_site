@@ -1,0 +1,39 @@
+---
+title: 'Episode 22: Carson Sievert'
+authors: ['csievert', 'admin', 'ckephart']
+date: '2021-07-16'
+slug: episode-22-csievert
+aliases: /ep22
+youtube: 'xTafvYX3zmE' 
+summary: 'How the new Shiny App Stories came to life with Nick Strayer'
+description: "In episode 21 of the Shiny Developer Series, I have the pleasure of welcoming back the newest member of the Shiny team, Nick Strayer!  We discuss the road Nick traveled to join RStudio full time, as well as the motivation behind the terrific Shiny App Stories, complete with a hands-on demonstration of new features in Shiny 1.6 such as `bindCache` and dynamic theming in the fun explore your weather application. All of that plus Nick\'s perspectives on the growing Shiny ecosystem and creating powerful data visualizations make this a must-see episode!"
+categories:
+  - episode
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+---
+
+## Resources mentioned in the episode
+
+- [Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com)
+* `bslib`: Tools for theming shiny and rmarkdown from R via Bootstrap (3 or 4) Sass [rstudio.github.io/bslib](https://rstudio.github.io/bslib)
+* `thematic`: Simplified theming of `ggplot2`, `lattice`, and `base` R graphics [rstudio.github.io/thematic](https://rstudio.github.io/thematic)
+* `shinymeta`: Record and expose Shiny app logic using metaprogramming [rstudio.github.io/shinymeta](https://rstudio.github.io/shinymeta)
+* `flexdashboard`: Easy interactive dashboards for R [pkgs.rstudio.com/flexdashboard](https://pkgs.rstudio.com/flexdashboard)
+
+## Episode Timestamps
+
+[00:00:00](https://youtube.com/watch?v=84Vg7HKzd2E&t=0s) Episode Introduction <br> 
+[00:06:15](https://youtube.com/watch?v=84Vg7HKzd2E&t=375s) Nick's journey since episode 5 <br> 
+[00:08:10](https://youtube.com/watch?v=84Vg7HKzd2E&t=490s) Shiny app stories - an experimental form of documentation. Most documentation focuses on the *How* to do something, Shiny App Stories focuses on the *Why* <br> 
+[00:13:15](https://youtube.com/watch?v=84Vg7HKzd2E&t=795s) App Stories in action <br> 
+[00:16:25](https://youtube.com/watch?v=84Vg7HKzd2E&t=985s) `bindCache()` discussion on speeding up your Shiny app <br> 
+[00:22:57](https://youtube.com/watch?v=84Vg7HKzd2E&t=1377s) Dynamic theming with `{bslib}` <br> 
+[00:27:00](https://youtube.com/watch?v=84Vg7HKzd2E&t=1620s) The usefulness of the `session` object in an Shiny app <br> 
+[00:32:30](https://youtube.com/watch?v=84Vg7HKzd2E&t=1950s) Including web-technologies (like custom js, css, incorporating better design philosiphies) in your Shiny app <br> 
+[00:39:50](https://youtube.com/watch?v=84Vg7HKzd2E&t=2390s) On the Shiny Ecosystem. Nick only recently moved from being an active Shiny developer to being on the core-Shiny team itself <br> 
+[00:43:35](https://youtube.com/watch?v=84Vg7HKzd2E&t=2615s) On Creating great data visualizations and offering data consumers an excellent user experience <br> 
+[00:56:25](https://youtube.com/watch?v=84Vg7HKzd2E&t=3385s) What's the best way to give feedback to the Shiny team? <br> 
+[01:05:22](https://youtube.com/watch?v=84Vg7HKzd2E&t=3922s) Episode wrapup 
