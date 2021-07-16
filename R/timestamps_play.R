@@ -2,22 +2,24 @@ library(dplyr)
 library(lubridate)
 library(clock)
 
-youtube_id <- "84Vg7HKzd2E"
+youtube_id <- "xTafvYX3zmE"
 
 df <- tibble::tribble(
   ~timestamp, ~recalc_flag, ~description,
   "00:00:00", FALSE, "Episode Introduction",
-  "00:06:15", FALSE, "Nick's journey since episode 5",
-  "00:08:10", FALSE, "Shiny app stories - an experimental form of documentation. Most documentation focuses on the *How* to do something, Shiny App Stories focuses on the *Why*",
-  "00:13:15", FALSE, "App Stories in action",
-  "00:16:25", FALSE, "`bindCache()` discussion on speeding up your Shiny app",
-  "00:22:57", FALSE, "Dynamic theming with `{bslib}`",
-  "00:27:00", FALSE, "The usefulness of the `session` object in an Shiny app",
-  "00:32:30", FALSE, "Including web-technologies (like custom js, css, incorporating better design philosiphies) in your Shiny app",
-  "00:39:50", FALSE, "On the Shiny Ecosystem. Nick only recently moved from being an active Shiny developer to being on the core-Shiny team itself",
-  "00:43:35", FALSE, "On Creating great data visualizations and offering data consumers an excellent user experience",
-  "00:56:25", FALSE, "What's the best way to give feedback to the Shiny team?",
-  "01:05:22", FALSE, "Episode wrapup"
+  "00:02:00", FALSE, "Joining the Shiny team at RStudio and Carson's book on plotly",
+  "00:06:39", FALSE, "Introducing bslib and how it makes custom theming of your Shiny app as easy as possible",
+  "00:08:47", FALSE, "Introducing thematic for simplified theming of ggplot2, lattice, and base R graphics",
+  "00:14:28", FALSE, "Getting started with bslib",
+  "00:23:45", FALSE, "Real-time theming wizard, a tool to play interactively with the theming customization of your shiny app or R Markdown document",
+  "00:29:25", FALSE, "Development version of flexdashboard supports bslib now",
+  "00:36:38", FALSE, "On the advantages of working with sass over css. bslib helps you work with a front end web developer, writing sass rules and css styles while not having to dive into your Shiny app or R Markdown document",
+  "00:46:30", FALSE, "The origins of shinymeta and the ability to fully extract an app's reactive processing to produce a fully self-contained analysis script or report",
+  "00:57:40", FALSE, "Getting started with shinymeta",
+  "01:01:20", FALSE, "Shinymeta example of producing reproducible Shiny code",
+  "01:05:36", FALSE, "How does Carson recommend to Shiny developers who want to get better at cusotmizing the look and feel of their Shiny app? See Shiny’s Build articles",
+  "01:15:35", FALSE, "Attaching metadata to graphical markers in plotly",
+  "01:19:47", FALSE, "Episode wrapup"
 )
 
 df2 <- df %>%
