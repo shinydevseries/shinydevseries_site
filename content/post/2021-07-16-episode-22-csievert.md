@@ -1,12 +1,12 @@
 ---
-title: 'Episode 22: Carson Sievert'
+title: 'Episode 22: A fresh coat of Shiny theming with Carson Sievert'
 authors: ['csievert', 'admin', 'ckephart']
 date: '2021-07-16'
 slug: episode-22-csievert
 aliases: /ep22
 youtube: 'xTafvYX3zmE' 
-summary: 'How the new Shiny App Stories came to life with Nick Strayer'
-description: "In episode 21 of the Shiny Developer Series, I have the pleasure of welcoming back the newest member of the Shiny team, Nick Strayer!  We discuss the road Nick traveled to join RStudio full time, as well as the motivation behind the terrific Shiny App Stories, complete with a hands-on demonstration of new features in Shiny 1.6 such as `bindCache` and dynamic theming in the fun explore your weather application. All of that plus Nick\'s perspectives on the growing Shiny ecosystem and creating powerful data visualizations make this a must-see episode!"
+summary: 'Going behind the new Shiny theming toolchain with RStudio software engineer Carson Sievert!'
+description: "Earlier this year at RStudio Global, a lot of excitement among the Shiny enthusiasts centered on the brand new bslib and thematic packages for radically changing the style of typical Shiny app user interfaces. I am thrilled to get the inside story on this amazing development with the brilliant author, RStudio software engineer Carson Sievert! In this episode you will hear Carson\'s recommendations on getting started with bslib for both Shiny applications and even R-Markdown documents, why SASS (no, not that one) rules empower a Shiny developer to make sweeping changes in CSS, as well as the major milestone release of shinymeta, a package that directly addresses a huge need for traceable and reproducible analyses from Shiny apps in many industries such as life sciences. I hope you enjoy this episode and don\'t forget to subscribe to our channel so you can be first to know when future episodes are available!"
 categories:
   - episode
 tags: []
@@ -25,15 +25,17 @@ image:
 
 ## Episode Timestamps
 
-[00:00:00](https://youtube.com/watch?v=84Vg7HKzd2E&t=0s) Episode Introduction <br> 
-[00:06:15](https://youtube.com/watch?v=84Vg7HKzd2E&t=375s) Nick's journey since episode 5 <br> 
-[00:08:10](https://youtube.com/watch?v=84Vg7HKzd2E&t=490s) Shiny app stories - an experimental form of documentation. Most documentation focuses on the *How* to do something, Shiny App Stories focuses on the *Why* <br> 
-[00:13:15](https://youtube.com/watch?v=84Vg7HKzd2E&t=795s) App Stories in action <br> 
-[00:16:25](https://youtube.com/watch?v=84Vg7HKzd2E&t=985s) `bindCache()` discussion on speeding up your Shiny app <br> 
-[00:22:57](https://youtube.com/watch?v=84Vg7HKzd2E&t=1377s) Dynamic theming with `{bslib}` <br> 
-[00:27:00](https://youtube.com/watch?v=84Vg7HKzd2E&t=1620s) The usefulness of the `session` object in an Shiny app <br> 
-[00:32:30](https://youtube.com/watch?v=84Vg7HKzd2E&t=1950s) Including web-technologies (like custom js, css, incorporating better design philosiphies) in your Shiny app <br> 
-[00:39:50](https://youtube.com/watch?v=84Vg7HKzd2E&t=2390s) On the Shiny Ecosystem. Nick only recently moved from being an active Shiny developer to being on the core-Shiny team itself <br> 
-[00:43:35](https://youtube.com/watch?v=84Vg7HKzd2E&t=2615s) On Creating great data visualizations and offering data consumers an excellent user experience <br> 
-[00:56:25](https://youtube.com/watch?v=84Vg7HKzd2E&t=3385s) What's the best way to give feedback to the Shiny team? <br> 
-[01:05:22](https://youtube.com/watch?v=84Vg7HKzd2E&t=3922s) Episode wrapup 
+[00:00:00](https://youtube.com/watch?v=xTafvYX3zmE&t=0s) Episode Introduction <br> 
+[00:02:00](https://youtube.com/watch?v=xTafvYX3zmE&t=120s) Joining the Shiny team at RStudio and Carson's book on plotly <br> 
+[00:06:39](https://youtube.com/watch?v=xTafvYX3zmE&t=399s) Introducing bslib and how it makes custom theming of your Shiny app as easy as possible <br> 
+[00:08:47](https://youtube.com/watch?v=xTafvYX3zmE&t=527s) Introducing thematic for simplified theming of ggplot2, lattice, and base R graphics <br> 
+[00:14:28](https://youtube.com/watch?v=xTafvYX3zmE&t=868s) Getting started with bslib <br> 
+[00:23:45](https://youtube.com/watch?v=xTafvYX3zmE&t=1425s) Real-time theming wizard, a tool to play interactively with the theming customization of your shiny app or R Markdown document <br> 
+[00:29:25](https://youtube.com/watch?v=xTafvYX3zmE&t=1765s) Development version of flexdashboard supports bslib now <br> 
+[00:36:38](https://youtube.com/watch?v=xTafvYX3zmE&t=2198s) On the advantages of working with sass over css. bslib helps you work with a front end web developer, writing sass rules and css styles while not having to dive into your Shiny app or R Markdown document <br> 
+[00:46:30](https://youtube.com/watch?v=xTafvYX3zmE&t=2790s) The origins of shinymeta and the ability to fully extract an app's reactive processing to produce a fully self-contained analysis script or report <br> 
+[00:57:40](https://youtube.com/watch?v=xTafvYX3zmE&t=3460s) Getting started with shinymeta <br> 
+[01:01:20](https://youtube.com/watch?v=xTafvYX3zmE&t=3680s) Shinymeta example of producing reproducible Shiny code <br> 
+[01:05:36](https://youtube.com/watch?v=xTafvYX3zmE&t=3936s) How does Carson recommend to Shiny developers who want to get better at cusotmizing the look and feel of their Shiny app? See Shiny’s Build articles <br> 
+[01:15:35](https://youtube.com/watch?v=xTafvYX3zmE&t=4535s) Attaching metadata to graphical markers in plotly <br> 
+[01:19:47](https://youtube.com/watch?v=xTafvYX3zmE&t=4787s) Episode wrapup
