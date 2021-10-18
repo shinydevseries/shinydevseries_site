@@ -5,7 +5,7 @@ date: '2021-10-15'
 slug: episode-23-psilva
 aliases: /ep23
 youtube: 'wGfYYa1rfbg' 
-summary: 'Applying Shiny to high-profile projects and production application development advice with Appsilon\'s Pedro da Silva!'
+summary: "Applying Shiny to high-profile projects and production application development advice with Appsilon\'s Pedro da Silva!"
 description: "One of the common themes seen throughout the Shiny Developer Series is that effective Shiny development is much more than just getting an application to work! Other important considerations include applying Shiny to high-profile projects, ensuring a production-grade code base, and even building robust tooling to assist with development. I have the pleasure of discussing these with Appsilon software engineer and Shiny frontend developer Pedro da Silva! You will hear Pedro\'s practical advice on the many developer-friendly packages and tools he uses for production Shiny development, a detailed walkthrough of his (Shiny contest) award-winning Shiny Decisions application, and his recommendations for taking your Shiny development skills to the next level."
 categories:
   - episode
