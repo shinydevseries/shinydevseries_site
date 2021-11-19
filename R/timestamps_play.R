@@ -2,22 +2,20 @@ library(dplyr)
 library(lubridate)
 library(clock)
 
-youtube_id <- "wGfYYa1rfbg"
+youtube_id <- "QzmrhPmKByA"
 
 df <- tibble::tribble(
   ~timestamp, ~recalc_flag, ~description,
-  "00:00:00", TRUE, "Episode Introduction",
-  "00:02:44", TRUE, "Appsilon, Shiny consulting",
-  "00:07:44", TRUE, "The wonderful 'black magic' of Shiny",
-  "00:09:50", TRUE, "Custom Shiny apps in the enterprise. Number one theme: migrating from excel",
-  "00:17:40", TRUE, "Demo of Shiny app game Shiny Decisions",
-  "00:22:50", TRUE, "A code walkthrough of Shiny Decisions",
-  "00:32:50", TRUE, "On styling Shiny Decisions",
-  "00:50:40", TRUE, "The value of learning a little javascript to improve your Shiny apps",
-  "00:51:50", TRUE, "Book recommendations for integrating Javascript into your Shiny app and improving UI",
-  "00:52:50", TRUE, "Pedro on `jQuery` for Shiny",
-  "00:56:00", TRUE, "Advice for building Shiny apps in production",
-  "01:10:00", TRUE, "Advice for people seeking a career in data science with R and Shiny"
+  "00:00:00", FALSE, "Episode Introduction",
+  "00:03:24", FALSE, "How David got started with R & Shiny",
+  "00:05:40", FALSE, "Introduction to myPaintings",
+  "00:24:15", FALSE, "Infinite scroll feature",
+  "00:30:22", FALSE, "Design UI & UX of myPaintings",
+  "00:34:15", FALSE, "User management & helper functions",
+  "00:46:51", FALSE, "Overall app & file organization",
+  "00:49:28", FALSE, "Using .values to store & update user state and environment",
+  "00:53:40", FALSE, "R6 classes as another option",
+  "01:00:20", FALSE, "Recap and conclusion"
 )
 
 df2 <- df %>%
