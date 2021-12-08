@@ -5,7 +5,7 @@ date: '2021-12-03'
 slug: episode-25-cfay
 aliases: /ep25
 youtube: 'agwgiLpiBFo' 
-summary: "ADD MORE HERE"
+summary: "The journey to production in more ways than one!"
 description: "One of my biggest joys of the Shiny Developer Series is watching the journeys of many innovations in the Shiny ecosystem from the brilliant community of developers and practitioners. It is my great pleasure in episode 25 to welcome back data scientist & software engineer Colin Fay! Picking up from his last appearance almost three years ago, Colin takes us through the journey of authoring the recently-published Engineering Production Shiny and his favorite principles covered in the book. We also discuss the uptake of golem in the R community, his new approaches to starting development of a Shiny app integrating customized HTML templates, and even a little real-time consulting on using his brand-new brochure package for a fun learning project!"
 categories:
   - episode
