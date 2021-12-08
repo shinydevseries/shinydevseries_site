@@ -2,20 +2,17 @@ library(dplyr)
 library(lubridate)
 library(clock)
 
-youtube_id <- "QzmrhPmKByA"
+youtube_id <- "agwgiLpiBFo"
 
 df <- tibble::tribble(
   ~timestamp, ~recalc_flag, ~description,
   "00:00:00", FALSE, "Episode Introduction",
-  "00:03:24", FALSE, "How David got started with R & Shiny",
-  "00:05:40", FALSE, "Introduction to myPaintings",
-  "00:24:15", FALSE, "Infinite scroll feature",
-  "00:30:22", FALSE, "Design UI & UX of myPaintings",
-  "00:34:15", FALSE, "User management & helper functions",
-  "00:46:51", FALSE, "Overall app & file organization",
-  "00:49:28", FALSE, "Using .values to store & update user state and environment",
-  "00:53:40", FALSE, "R6 classes as another option",
-  "01:00:20", FALSE, "Recap and conclusion"
+  "00:01:15", FALSE, "Engineering Production-Grade Shiny Apps",
+  "00:11:00", FALSE, "The current state and future of golem",
+  "00:11:20", FALSE, "'Once you go golem, you never go back!'",
+  "00:26:09", FALSE, "HTML Template Demo",
+  "00:37:35", FALSE, "brochure package discussion",
+  "01:04:10", FALSE, "Advice for Shiny developers seeking to get their apps in shape for production"
 )
 
 df2 <- df %>%
