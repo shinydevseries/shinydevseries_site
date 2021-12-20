@@ -25,7 +25,7 @@ email = ""
 interests = [
   "Open Source",
   "Shiny",
-  "JavaScript
+  "JavaScript",
   "The R Community"
 ]
 
@@ -60,5 +60,3 @@ user_groups = []
 +++
 
 Kent Russell is one of the most influential members of the R community who has authored numerous R packages likning powerful JavaScript frameworks and extensions to R. In 2015, Kent authored an amazing series of posts on his blog [Building Widgets](http://www.buildingwidgets.com/blog) where he wrote R packages for a different JavaScript widget every week, and has been a key thought leader and developer in the spaces of JavaScript and Shiny ever since.
-
-

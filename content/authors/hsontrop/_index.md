@@ -25,7 +25,7 @@ email = ""
 interests = [
   "Open Source",
   "Shiny",
-  "JavaScript
+  "JavaScript",
   "The R Community"
 ]
 
@@ -60,5 +60,3 @@ user_groups = []
 +++
 
 Herman Sontrop is a product owner and frontend developer at FRISS Analytics, a company creating products to combat fraud and assist with risk and compliance for insurers worldwide. Herman was an early adopter of the Shiny package for creating web-based applications in R, and that passion led him to explore the world of JavaScript and developing powerful front-end applications, a core part of this current role today. 
-
-
