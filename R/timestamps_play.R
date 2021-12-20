@@ -2,17 +2,29 @@ library(dplyr)
 library(lubridate)
 library(clock)
 
-youtube_id <- "agwgiLpiBFo"
+youtube_id <- "SkFLHbHrPD4"
 
 df <- tibble::tribble(
   ~timestamp, ~recalc_flag, ~description,
   "00:00:00", FALSE, "Episode Introduction",
-  "00:01:15", FALSE, "Engineering Production-Grade Shiny Apps",
-  "00:11:00", FALSE, "The current state and future of golem",
-  "00:11:20", FALSE, "'Once you go golem, you never go back!'",
-  "00:26:09", FALSE, "HTML Template Demo",
-  "00:37:35", FALSE, "brochure package discussion",
-  "01:04:10", FALSE, "Advice for Shiny developers seeking to get their apps in shape for production"
+  "00:01:00", FALSE, "Introduction to Herman Sontrop",
+  "00:06:10", FALSE, "Introduction to Kenton Russell",
+  "00:10:00", FALSE, "High-level walkthrough of Movie Vue R",
+  "00:19:25", FALSE, "Diving into the code that drives Movie Vue R",
+  "00:22:35", FALSE, "Overview and motivation behind Vue",
+  "00:38:30", FALSE, "Vue instance example",
+  "00:40:00", FALSE, "Vue reactivty examples",
+  "00:46:10", FALSE, "Vue.js components are like Shiny modules",
+  "00:49:50", FALSE, "Single file components",
+  "00:54:16", FALSE, "Breaking down a Vue component into useful parts; props, data, methods, computed, and watch",
+  "00:57:20", FALSE, "Vuetify, tap into many pre-built components, styles, and more",
+  "01:10:00", FALSE, "Covid Globe Example in Shiny app",
+  "01:12:40", FALSE, "Rendering a ggplot",
+  "01:15:15", FALSE, "Summarizing parts of the Movie Vue R app",
+  "01:19:10", FALSE, "A look at template.html. A detailed walk through the organization of the app's HTML and files",
+  "01:26:30", FALSE, "Where R and Shiny are added to a Vue app. And how your app can send messages back to Shiny and R",
+  "01:31:20", FALSE, "Loading images and ggplots",
+  "01:38:00", FALSE, "Episode wrapup"
 )
 
 df2 <- df %>%
