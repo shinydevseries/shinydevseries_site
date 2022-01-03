@@ -59,9 +59,9 @@ RUN echo "RENV_PATHS_CACHE=/renv/cache" >> /usr/local/lib/R/etc/Renviron
 COPY library-scripts/.Rprofile-vscode /renv/.Rprofile-vscode
 
 # [Optional] Uncomment this section to add addtional system dependencies needed for project
-ADD https://github.com/gohugoio/hugo/releases/download/v0.67.0/hugo_0.67.0_Linux-64bit.tar.gz /hugo.tar.gz
-RUN tar -zxvf hugo.tar.gz
-RUN cp /hugo /usr/local/bin/hugo
+# [Optional] Uncomment this section to add addtional system dependencies needed for project
+RUN curl -L https://github.com/gohugoio/hugo/releases/download/v0.87.0/hugo_extended_0.87.0_Linux-64bit.deb -o /tmp/hugo.deb
+RUN apt-get -y install ./tmp/hugo.deb
 
 # [Optional] Set the default user. Omit if you want to keep the default as root.
 USER $USERNAME

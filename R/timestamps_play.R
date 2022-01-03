@@ -2,29 +2,24 @@ library(dplyr)
 library(lubridate)
 library(clock)
 
-youtube_id <- "SkFLHbHrPD4"
+youtube_id <- "8crXv5SBDLE"
 
 df <- tibble::tribble(
   ~timestamp, ~recalc_flag, ~description,
   "00:00:00", FALSE, "Episode Introduction",
-  "00:01:00", FALSE, "Introduction to Herman Sontrop",
-  "00:06:10", FALSE, "Introduction to Kenton Russell",
-  "00:10:00", FALSE, "High-level walkthrough of Movie Vue R",
-  "00:19:25", FALSE, "Diving into the code that drives Movie Vue R",
-  "00:22:35", FALSE, "Overview and motivation behind Vue",
-  "00:38:30", FALSE, "Vue instance example",
-  "00:40:00", FALSE, "Vue reactivty examples",
-  "00:46:10", FALSE, "Vue.js components are like Shiny modules",
-  "00:49:50", FALSE, "Single file components",
-  "00:54:16", FALSE, "Breaking down a Vue component into useful parts; props, data, methods, computed, and watch",
-  "00:57:20", FALSE, "Vuetify, tap into many pre-built components, styles, and more",
-  "01:10:00", FALSE, "Covid Globe Example in Shiny app",
-  "01:12:40", FALSE, "Rendering a ggplot",
-  "01:15:15", FALSE, "Summarizing parts of the Movie Vue R app",
-  "01:19:10", FALSE, "A look at template.html. A detailed walk through the organization of the app's HTML and files",
-  "01:26:30", FALSE, "Where R and Shiny are added to a Vue app. And how your app can send messages back to Shiny and R",
-  "01:31:20", FALSE, "Loading images and ggplots",
-  "01:38:00", FALSE, "Episode wrapup"
+  "00:01:00", FALSE, "The vueR package and introductory examples",
+  "00:06:55", FALSE, "Live coding example with vuetify",
+  "00:13:55", FALSE, "vueR example, adding a calendar date selector and other mint-ui elements to your Shiny app",
+  "00:21:00", FALSE, "htmlwidget leaflet map example",
+  "00:24:10", FALSE, "Example of a sunburst plot",
+  "00:33:15", FALSE, "Example of a checkbox selector for hierarchical element trees",
+  "00:36:00", FALSE, "JavaScript build steps with Vue CLI",
+  "00:59:30", FALSE, "vite vue 3 build example",
+  "01:09:30", FALSE, "A call to the community to help with vueR development goals",
+  "01:10:30", FALSE, "Integrating crosstalk",
+  "01:14:30", FALSE, "Using vuex as a store of state. Time travel through the state of your Shiny app",
+  "01:20:24", FALSE, "Example of valtio",
+  "01:27:08", FALSE, "Episode wrapup"
 )
 
 df2 <- df %>%
