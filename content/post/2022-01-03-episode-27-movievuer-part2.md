@@ -5,7 +5,7 @@ date: '2022-01-03'
 slug: episode-27-movievuer2
 aliases: /ep27
 youtube: '8crXv5SBDLE' 
-summary: "Go behind the (gorgeous) scenes of the Movie Vue R app with Kent Russell and Herman Sontrap!"
+summary: "Revealing the cast of R bindings to Vue.js powering Movie Vue R with Kent Russell and Herman Sontrap!"
 description: "After a terrific showing of the eye-opening Movie Vue R in episode 26, Kent Russell and Herman Sontrop reveal the fundamental cast of R packages and workflows bringing the app to life. Kent leads us through live demonstrations of his R packages binding to Vue.js, illustrating the seamless way you can link existing HTML widgets to the Vue framework, as well as the mechanics of incorporating Shiny into existing Vue templates to unlock immense potential. Later in the episode we learn revolutionary techniques for adapting the popular crosstalk package to Vue apps, as well as a unique way of tracking application state. Each of these demonstrations reveal many nuggets of development wisdom straight from a true pioneer in bridging the amazing worlds of JavaScript and R together!"
 categories:
   - episode
