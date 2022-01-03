@@ -30,12 +30,33 @@
       "Repository": "RSPM",
       "Hash": "543776ae6848fde2f48ff3816d0628bc"
     },
+    "blogdown": {
+      "Package": "blogdown",
+      "Version": "1.7",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "a59150d0098908724e1c0dc9d2a3ab5b"
+    },
+    "bookdown": {
+      "Package": "bookdown",
+      "Version": "0.24",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "3837766a1e1b527af25fa3e2d12a2800"
+    },
     "cli": {
       "Package": "cli",
       "Version": "3.0.0",
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "096829b701eec2d2b4538be63de97e75"
+    },
+    "clock": {
+      "Package": "clock",
+      "Version": "0.3.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "ce1e04e9826e3885571a2681d03e1ae3"
     },
     "cpp11": {
       "Package": "cpp11",
@@ -58,6 +79,13 @@
       "Repository": "RSPM",
       "Hash": "a0cbe758a531d054b537d16dff4d58a1"
     },
+    "dplyr": {
+      "Package": "dplyr",
+      "Version": "1.0.7",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "36f1ae62f026c8ba9f9b5c9a08c03297"
+    },
     "ellipsis": {
       "Package": "ellipsis",
       "Version": "0.3.2",
@@ -79,6 +107,13 @@
       "Repository": "RSPM",
       "Hash": "d447b40982c576a72b779f0a3b3da227"
     },
+    "generics": {
+      "Package": "generics",
+      "Version": "0.1.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "4d243a9c10b00589889fe32314ffd902"
+    },
     "glue": {
       "Package": "glue",
       "Version": "1.4.2",
@@ -99,6 +134,20 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "af2c2531e55df5cf230c4b5444fc973c"
+    },
+    "httpuv": {
+      "Package": "httpuv",
+      "Version": "1.6.3",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "65e865802fe6dd1bafef1dae5b80a844"
+    },
+    "jquerylib": {
+      "Package": "jquerylib",
+      "Version": "0.1.4",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "5aab57a3bd297eee1c1d862735972182"
     },
     "jsonlite": {
       "Package": "jsonlite",
@@ -127,6 +176,13 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "3471fb65971f1a7b2d4ae7848cf2db8d"
+    },
+    "lubridate": {
+      "Package": "lubridate",
+      "Version": "1.7.10",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "1ebfdc8a3cfe8fe19184f5481972b092"
     },
     "magrittr": {
       "Package": "magrittr",
@@ -163,6 +219,13 @@
       "Repository": "RSPM",
       "Hash": "01f28d4278f15c76cddbea05899c5d6f"
     },
+    "promises": {
+      "Package": "promises",
+      "Version": "1.2.0.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "4ab2c43adb4d4699cf3690acd378d75d"
+    },
     "purrr": {
       "Package": "purrr",
       "Version": "0.3.4",
@@ -191,6 +254,13 @@
       "Repository": "RSPM",
       "Hash": "912c09266d5470516df4df7a303cde92"
     },
+    "servr": {
+      "Package": "servr",
+      "Version": "0.23",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "75a40cd4f8503fe175be6b213009767f"
+    },
     "stringi": {
       "Package": "stringi",
       "Version": "1.7.3",
@@ -212,12 +282,26 @@
       "Repository": "RSPM",
       "Hash": "349b40a9f144516d537c875e786ec8b8"
     },
+    "tidyselect": {
+      "Package": "tidyselect",
+      "Version": "1.1.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "7243004a708d06d4716717fa1ff5b2fe"
+    },
     "tinytex": {
       "Package": "tinytex",
       "Version": "0.32",
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "db9a6f2cf147751322d22c9f6647c7bd"
+    },
+    "tzdb": {
+      "Package": "tzdb",
+      "Version": "0.1.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "d60ee49eac3f3aaead137af987c92ddb"
     },
     "utf8": {
       "Package": "utf8",
@@ -235,10 +319,10 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.24",
+      "Version": "0.29",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "88cdb9779a657ad80ad942245fffba31"
+      "Hash": "e2e5fb1a74fbb68b27d6efc5372635dc"
     },
     "yaml": {
       "Package": "yaml",
