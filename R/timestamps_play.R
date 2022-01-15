@@ -2,24 +2,16 @@ library(dplyr)
 library(lubridate)
 library(clock)
 
-youtube_id <- "8crXv5SBDLE"
+youtube_id <- "XqLx233W97U"
 
 df <- tibble::tribble(
   ~timestamp, ~recalc_flag, ~description,
   "00:00:00", FALSE, "Episode Introduction",
-  "00:01:00", FALSE, "The vueR package and introductory examples",
-  "00:06:55", FALSE, "Live coding example with vuetify",
-  "00:13:55", FALSE, "vueR example, adding a calendar date selector and other mint-ui elements to your Shiny app",
-  "00:21:00", FALSE, "htmlwidget leaflet map example",
-  "00:24:10", FALSE, "Example of a sunburst plot",
-  "00:33:15", FALSE, "Example of a checkbox selector for hierarchical element trees",
-  "00:36:00", FALSE, "JavaScript build steps with Vue CLI",
-  "00:59:30", FALSE, "vite vue 3 build example",
-  "01:09:30", FALSE, "A call to the community to help with vueR development goals",
-  "01:10:30", FALSE, "Integrating crosstalk",
-  "01:14:30", FALSE, "Using vuex as a store of state. Time travel through the state of your Shiny app",
-  "01:20:24", FALSE, "Example of valtio",
-  "01:27:08", FALSE, "Episode wrapup"
+  "00:04:45", FALSE, "Inspiration behind CoronaSweeper",
+  "00:08:15", FALSE, "Demo of Coronasweeper",
+  "00:14:35", FALSE, "Code walkthrough",
+  "00:43:10", FALSE, "Shiny for teaching?",
+  "00:50:20", FALSE, "Episode wrapup"
 )
 
 df2 <- df %>%
