@@ -23,3 +23,10 @@ image:
 * Follow Kate on Twitter - [@katerobsau](https://twitter.com/katerobsau)
 
 ## Episode Timestamps
+
+[00:00:00](https://youtube.com/watch?v=XqLx233W97U&t=0s) Episode Introduction <br> 
+[00:04:45](https://youtube.com/watch?v=XqLx233W97U&t=285s) Inspiration behind CoronaSweeper <br> 
+[00:08:15](https://youtube.com/watch?v=XqLx233W97U&t=495s) Demo of Coronasweeper <br> 
+[00:14:35](https://youtube.com/watch?v=XqLx233W97U&t=875s) Code walkthrough <br> 
+[00:43:10](https://youtube.com/watch?v=XqLx233W97U&t=2590s) Shiny for teaching? <br> 
+[00:50:20](https://youtube.com/watch?v=XqLx233W97U&t=3020s) Episode wrapup <br> 
