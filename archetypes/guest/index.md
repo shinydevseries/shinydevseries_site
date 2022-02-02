@@ -1,15 +1,13 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-subtitle: ""
-excerpt: ""
+title: "{{ replace .Name "-" " " | title }}" # Guest name
+excerpt: Occupation # short label for guest's occupation
 date: {{ .Date }}
-author: ""
-draft: true
+draft: false
 series:
 tags:
 categories:
 layout: single # single or single-sidebar
-social:
+social: # change these to match guest's social links
 - icon: twitter
   icon_pack: fab
   url: https://twitter.com/shinydevseries
@@ -19,9 +17,9 @@ social:
 - icon: linkedin
   icon_pack: fab
   url: https://linkedin.com
-links:
+links: #customize as appropriate
 - icon: door-open
   icon_pack: fas
   name: website
-  url: /
+  url: https://shinydevseries.com
 ---
