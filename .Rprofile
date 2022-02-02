@@ -13,22 +13,22 @@ if (Sys.getenv("TERM_PROGRAM") == "vscode") {
     # was: !require("languageserver")
     if (!"languageserver" %in% lib_packages) {
         message("installing languageserver package")
-        renv::install("languageserver@0.3.8")
+        renv::install("languageserver")
     }
     
     if (!"httpgd" %in% lib_packages) {
         message("installing httpgd package")
-        renv::install("nx10/httpgd")
+        renv::install("httpgd")
     }
 
     if (!"vscDebugger" %in% lib_packages) {
         message("installation vscDebugger package")
-        renv::install("ManuelHentschel/vscDebugger@v0.4.3")
+        renv::install("ManuelHentschel/vscDebugger@v0.4.7")
     }
 
     # use the rstudio addins feature
     if (!"rstudioapi" %in% lib_packages) {
-        message("installation rstudioapi package")
+        message("installing rstudioapi package")
         renv::install("rstudioapi")
     }
     options(vsc.rstudioapi = TRUE)
@@ -40,3 +40,26 @@ if (Sys.getenv("TERM_PROGRAM") == "vscode") {
       .vsc.browser(httpgd::hgd_url(), viewer = "Beside")
     })
 }
+
+# uncomment this section if using a pulseaudio server from a linux host
+# play_sound <- function(sound_dir = "/soundboard_files", custom_sink = "SoundBoard", obs_animate = TRUE, wait = FALSE) {
+#   audio_file <- sample(list.files(sound_dir, full.names = TRUE), size = 1)
+#   play_args <- c(audio_file)
+
+#   if (!is.null(custom_sink)) {
+#     play_args <- c(play_args, "-d", custom_sink)
+#   }
+
+#   system2("paplay", args = play_args, wait = wait)
+
+#   if (obs_animate) {
+#     system2("curl", paste0("http://192.168.1.178:1030/image?filename=/", audio_file), stdout = FALSE, stderr = FALSE)
+#   }
+
+#   invisible(TRUE)
+# }
+
+# options(error = play_sound)
+
+# fix Hugo version
+options(blogdown.hugo.version = "0.92.0")

@@ -9,10 +9,9 @@ FROM rocker/r-ver:4.1.0
 ARG INSTALL_ZSH="false"
 ARG INSTALL_FISH="true"
 ARG UPGRADE_PACKAGES="true"
-ARG USERNAME=eric
+ARG USERNAME
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
-ARG HUGO_VERSION=0.67.0
 
 # Remove the docker user since I don't need it for VSCode containers
 #RUN groupmod docker --gid 1005 \
@@ -30,12 +29,11 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 RUN apt-get update \
     && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends software-properties-common libssl-dev libxml2-dev libcurl4-openssl-dev python3-pip pandoc \
-    && apt-get -y install --no-install-recommends libfreetype6-dev libfontconfig1-dev \
-    && apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/* 
+    && apt-get -y install --no-install-recommends libfreetype6-dev libfontconfig1-dev tk \
+    && apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
 
 # install R packages needed for VSCode interaction and package management
-RUN install2.r languageserver renv remotes
-RUN installGithub.r nx10/httpgd
+RUN install2.r languageserver renv remotes httpgd
 
 # install radian via python and pip3
 RUN apt-get update \
@@ -59,10 +57,34 @@ RUN echo "RENV_PATHS_CACHE=/renv/cache" >> /usr/local/lib/R/etc/Renviron
 COPY library-scripts/.Rprofile-vscode /renv/.Rprofile-vscode
 
 # [Optional] Uncomment this section to add addtional system dependencies needed for project
-# [Optional] Uncomment this section to add addtional system dependencies needed for project
-RUN curl -L https://github.com/gohugoio/hugo/releases/download/v0.87.0/hugo_extended_0.87.0_Linux-64bit.deb -o /tmp/hugo.deb
+RUN apt-get update \
+    && export DEBIAN_FRONTEND=noninteractive \
+    && apt-get -y install --no-install-recommends curl
+
+# [Optional] Uncomment this section to add Hugo to the container
+# Customize version number as appropriate
+RUN curl -L https://github.com/gohugoio/hugo/releases/download/v0.92.0/hugo_extended_0.92.0_Linux-64bit.deb -o /tmp/hugo.deb
 RUN apt-get -y install ./tmp/hugo.deb
+
+
+
+# [Optional] Uncomment this section for linking a local pusleaudio sound system on a linux host
+# to the container.
+#RUN apt-get update \
+#    && export DEBIAN_FRONTEND=noninteractive \
+#    && apt-get -y install --no-install-recommends libpulse0 libasound2 libasound2-plugins pulseaudio-utils
+    
+# install obs-cli (Go version)
+# https://github.com/muesli/obs-cli/releases
+#ADD https://github.com/muesli/obs-cli/releases/download/v0.4.0/obs-cli_0.4.0_linux_x86_64.tar.gz /obs-cli-linux.tar.gz
+#RUN tar -zxvf obs-cli-linux.tar.gz
+#RUN cp /obs-cli /usr/local/bin/obs-cli
+#RUN chmod 755 /usr/local/bin/obs-cli
+
+# install obs-cli (Javascript version)
+# https://github.com/leafac/obs-cli/releases
+#ADD https://github.com/leafac/obs-cli/releases/download/v2.2.3/obs-cli-linux /usr/local/bin/obs-cli-js
+#RUN chmod 755 /usr/local/bin/obs-cli-js
 
 # [Optional] Set the default user. Omit if you want to keep the default as root.
 USER $USERNAME
-

@@ -41,7 +41,7 @@
       "Package": "bookdown",
       "Version": "0.24",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "CRAN",
       "Hash": "3837766a1e1b527af25fa3e2d12a2800"
     },
     "cli": {
@@ -114,6 +114,13 @@
       "Repository": "RSPM",
       "Hash": "77bd60a6157420d4ffa93b27cf6a58b8"
     },
+    "fs": {
+      "Package": "fs",
+      "Version": "1.5.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "44594a07a42e5f91fac9f93fda6d0109"
+    },
     "generics": {
       "Package": "generics",
       "Version": "0.1.1",
@@ -146,7 +153,7 @@
       "Package": "httpuv",
       "Version": "1.6.5",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Hash": "97fe71f0a4a1c9890e6c2128afa04bc0"
     },
     "jquerylib": {
@@ -258,7 +265,7 @@
       "Package": "servr",
       "Version": "0.24",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "CRAN",
       "Hash": "e2c3e268d654becf0d78a1ec13a05b46"
     },
     "stringi": {

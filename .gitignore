@@ -1,8 +1,12 @@
-public/
-.idea/
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
-**/.DS_Store
-blogdown
+/public/
+/resources/
+.DS_Store
+Thumbs.db
+.hugo_build.lock
+prototyping/*
+!prototyping/README.md
+!prototyping/post
