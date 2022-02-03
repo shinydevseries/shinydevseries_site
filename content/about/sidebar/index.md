@@ -4,7 +4,7 @@ authors:
 - author: "Eric Nantz"
   role: "Creator & Host"
   avatar_shape: rounded # circle, square, rounded, leave blank to exclude
-  avatar_image: eric-avatar.png
+  avatar_image: eric-avatar.jpg
   show_social_links: true # specify social accounts in site config
   audio_link_label: "" # leave blank to exclude
 - author: "Curtis Kephart"
