@@ -2,7 +2,7 @@
 title: "Episode 29: Playing fair with the FairSplit Shiny App!" 
 excerpt: "How Shiny combined with a novel algorithm can level a playing field in many situations."
 date: '2022-02-02'
-description: Whether in a sports pickup game or a different friendly competition, we often strive for balancing the distributions of skills so everyone can have fun. What does this have to do with Shiny? In episode 29, our coverage of the 2021 Shiny contest continues as I am joined by Douglas Mesquita and Luis Gustavo Silve e Silve who created the novel FairSplit Shiny application! Motivated by regular football pickup games, Douglas and Luis developed a novel algorithm to balance the distribution of individuals incorporating multiple traits that eventually wound up into a snazy Shiny app that easily has something for everyone. This is yet another example of the many use cases Shiny brings at your fingertips.
+description: Whether in a sports pickup game or a different friendly competition, we often strive for balancing the distributions of skills so everyone can have fun. What does this have to do with Shiny? In episode 29, our coverage of the 2021 Shiny contest continues as I am joined by Douglas Mesquita and Luis Gustavo Silve e Silve who created the novel FairSplit Shiny application! Motivated by regular football pickup games, Douglas and Luis developed a novel algorithm to balance the distribution of individuals incorporating multiple traits that eventually wound up into a snazzy Shiny app that easily has something for everyone. This is yet another example of the many use cases Shiny brings at your fingertips.
 guests:
 - dmesquita
 - lsilva
@@ -35,7 +35,7 @@ layout: single-sidebar
 
 📽 Find previous interviews at <https://shinydevseries.com>
 
-📋 Feedback is more than welcome! Please send your comments or suggesstions on our contact form at [shinydevseries.com/contact](https://shinydevseries.com/contact)
+📋 Feedback is more than welcome! Please send your comments or suggestions on our contact form at [shinydevseries.com/contact](https://shinydevseries.com/contact)
 
 If you enjoyed this video or got value from it, then consider dropping something in the tip jar. Any money raised will be used to improve the channel and invest in additional equipment and resources to make the content even better!
 
