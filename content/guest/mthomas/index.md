@@ -29,6 +29,10 @@ links: #customize as appropriate
   icon_pack: fas
   name: E30 # change to episode number
   url: https://shinydevseries.com/ep30 # change to episode number
+- icon: video
+  icon_pack: fas
+  name: E31 # change to episode number
+  url: https://shinydevseries.com/ep31
 ---
 
 Mike Thomas is the Chief Data Scientist at Ketchbrook Analytics, with background in credit risk modeling, regression & time series forecasting, machine learning, recommendation engines, and natural language processing. Mike has extensive data visualization experience across a variety of software products and technologies and is passionate about reproducibility and following healthy software development practices in data science. In addition, Mike is a co-host of the [RWeekly Highlights Podcast](https://rweekly.fireside.fm).
