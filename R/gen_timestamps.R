@@ -26,21 +26,22 @@ gen_timestamps <- function(df, video_id) {
 
 library(dplyr)
 
-youtube_id <- "21MnLDuRbS8"
+youtube_id <- "GdxVtl3FwmI"
 
 df <- tibble::tribble(
   ~timestamp, ~recalc_flag, ~description,
   "00:00:00", FALSE, "Episode Introduction",
-  "00:01:31", FALSE, "Mike's introductiona and journey with R & Shiny",
-  "00:07:20", FALSE, "Data science consulting and Ketchbrook Analytics",
-  "00:11:40", FALSE, "Olivia Adams' inspiring story",
-  "00:17:40", FALSE, "Demo of Mike's COVID-19 At-Home Test Spotter App",
-  "00:31:55", FALSE, "App code introduction",
-  "00:32:10", FALSE, "googleway package integrating the Google Maps API",
-  "00:36:25", FALSE, "Pulling addresses from map searches",
-  "00:41:10", FALSE, "Using MongoDB for records collection",
-  "00:43:15", FALSE, "bslib to simulate the multi-page app experience",
-  "00:46:20", FALSE, "Episode wrapup"
+  "00:00:46", FALSE, "CRUD workflow and flowchart, with MongoDB database updates",
+  "00:09:41", FALSE, "Diving into the Google Maps and Places API",
+  "00:15:55", FALSE, "Geographic fencing, and dealing with unexpected user behavior. ",
+  "00:22:35", FALSE, "Deploying with a dev and production branch.",
+  "00:28:15 ", FALSE, "Future plans for the app",
+  "00:30:50", FALSE, "Advice for building Shiny apps in production",
+  "00:31:20", FALSE, "Production apps is all about reproducibility: OS, dependencies, and the code.",
+  "00:33:15", FALSE, "Pay attention to warning messages in your console.",
+  "00:34:22", FALSE, "Modularization and Golem",
+  "00:38:08", FALSE, "You can have too much reactivity, such as overextending uiOutput() / renderUI()",
+  "00:40:10", FALSE, "Episode wrapup"
 )
 
 df2 <- gen_timestamps(df, youtube_id)
