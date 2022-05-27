@@ -15,10 +15,10 @@ links:
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/HoloMarkeD
+  url: https://twitter.com/HoloMarkeD
 - icon: github
   icon_pack: fab
-  link: https://github.com/MarkEdmondson1234
+  url: https://github.com/MarkEdmondson1234
 
 title: Mark Edmondson
 ---

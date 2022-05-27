@@ -15,10 +15,10 @@ links:
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/yoniceedee
+  url: https://twitter.com/yoniceedee
 - icon: github
   icon_pack: fab
-  link: https://github.com/yonicd
+  url: https://github.com/yonicd
 title: Yoni Sidi
 ---
 

@@ -10,3 +10,4 @@ Thumbs.db
 prototyping/*
 !prototyping/README.md
 !prototyping/post
+R/timestamps_exec.R

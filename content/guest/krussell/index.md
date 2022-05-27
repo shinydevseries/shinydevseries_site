@@ -15,10 +15,10 @@ links:
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/timelyportfolio
+  url: https://twitter.com/timelyportfolio
 - icon: github
   icon_pack: fab
-  link: https://github.com/timelyportfolio
+  url: https://github.com/timelyportfolio
 title: Kent Russell
 ---
 

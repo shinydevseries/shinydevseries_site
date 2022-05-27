@@ -15,10 +15,10 @@ links:
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/hadleywickham
+  url: https://twitter.com/hadleywickham
 - icon: github
   icon_pack: fab
-  link: https://github.com/hadley
+  url: https://github.com/hadley
 title: Hadley Wickham
 ---
 

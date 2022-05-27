@@ -15,13 +15,13 @@ links:
 social:
 - icon: github
   icon_pack: fab
-  link: https://github.com/katerobsau
+  url: https://github.com/katerobsau
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/katerobsau
+  url: https://twitter.com/katerobsau
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/kate-saunders-08a31493
+  url: https://www.linkedin.com/in/kate-saunders-08a31493
 title: Kate Saunders
 ---
 

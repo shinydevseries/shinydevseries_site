@@ -15,10 +15,10 @@ links:
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/_mfaan
+  url: https://twitter.com/_mfaan
 - icon: github
   icon_pack: fab
-  link: https://github.com/mfanny
+  url: https://github.com/mfanny
 title: Fanny Meyer
 ---
 

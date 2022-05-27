@@ -15,13 +15,13 @@ links:
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/jdatap
+  url: https://twitter.com/jdatap
 - icon: github
   icon_pack: fab
-  link: https://github.com/JohnCoene
+  url: https://github.com/JohnCoene
 - icon: home
   icon_pack: fas
-  link: https://john-coene.com
+  url: https://john-coene.com
 title: John (JP) Coene
 ---
 

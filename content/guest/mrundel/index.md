@@ -19,10 +19,10 @@ links:
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/minebocek
+  url: https://twitter.com/minebocek
 - icon: github
   icon_pack: fab
-  link: https://github.com/mine-cetinkaya-rundel
+  url: https://github.com/mine-cetinkaya-rundel
 title: Mine Cetinkaya-Rundel
 ---
 

@@ -19,13 +19,13 @@ links:
 social:
 - icon: home
   icon_pack: fas
-  link: http://nickstrayer.me
+  url: http://nickstrayer.me
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/NicholasStrayer
+  url: https://twitter.com/NicholasStrayer
 - icon: github
   icon_pack: fab
-  link: https://github.com/nstrayer
+  url: https://github.com/nstrayer
 title: Nick Strayer
 ---
 

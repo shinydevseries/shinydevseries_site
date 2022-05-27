@@ -15,13 +15,13 @@ links:
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/JoannaMelon
+  url: https://twitter.com/JoannaMelon
 - icon: github
   icon_pack: fab
-  link: https://github.com/jienagu
+  url: https://github.com/jienagu
 - icon: cv
   icon_pack: ai
-  link: https://jienagu.github.io/Jiena_McLellan_CV/Jiena_McLellan_CV
+  url: https://jienagu.github.io/Jiena_McLellan_CV/Jiena_McLellan_CV
 title: Jiena McLellan
 ---
 
