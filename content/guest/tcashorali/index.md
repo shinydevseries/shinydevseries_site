@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 excerpt: Shiny Consultant and Entrepreneur
 layout: single
 date: '2020-12-23'
@@ -15,10 +15,10 @@ links:
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/tanyacash21
+  url: https://twitter.com/tanyacash21
 - icon: github
   icon_pack: fab
-  link: https://github.com/tcash21
+  url: https://github.com/tcash21
 title: Tanya Cashorali
 ---
 

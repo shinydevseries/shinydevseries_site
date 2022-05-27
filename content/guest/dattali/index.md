@@ -15,13 +15,13 @@ links:
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/daattali
+  url: https://twitter.com/daattali
 - icon: github
   icon_pack: fab
-  link: https://github.com/daattali
+  url: https://github.com/daattali
 - icon: cv
   icon_pack: ai
-  link: https://deanattali.com/aboutme/
+  url: https://deanattali.com/aboutme/
 title: Dean Attali
 ---
 

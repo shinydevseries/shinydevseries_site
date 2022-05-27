@@ -15,13 +15,13 @@ links:
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/mayacelium
+  url: https://twitter.com/mayacelium
 - icon: github
   icon_pack: fab
-  link: https://github.com/mayagans
+  url: https://github.com/mayagans
 - icon: cv
   icon_pack: ai
-  link: https://maya.rbind.io/cv
+  url: https://maya.rbind.io/cv
 title: Maya Gans
 ---
 

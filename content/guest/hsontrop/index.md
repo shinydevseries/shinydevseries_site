@@ -19,10 +19,10 @@ links:
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/bollekedekat
+  url: https://twitter.com/bollekedekat
 - icon: github
   icon_pack: fab
-  link: https://github.com/FrissAnalytics
+  url: https://github.com/FrissAnalytics
 title: Herman Sontrop
 ---
 

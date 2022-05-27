@@ -15,10 +15,10 @@ links:
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/_pvictorr
+  url: https://twitter.com/_pvictorr
 - icon: github
   icon_pack: fab
-  link: https://github.com/pvictor
+  url: https://github.com/pvictor
 title: Victor Perrier
 ---
 

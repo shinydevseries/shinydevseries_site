@@ -15,10 +15,10 @@ links:
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/ntweetor
+  url: https://twitter.com/ntweetor
 - icon: github
   icon_pack: fab
-  link: https://github.com/nteetor
+  url: https://github.com/nteetor
 title: Nathan Teetor
 ---
 

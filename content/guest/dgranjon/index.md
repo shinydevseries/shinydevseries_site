@@ -19,10 +19,10 @@ links:
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/divadnojnarg
+  url: https://twitter.com/divadnojnarg
 - icon: github
   icon_pack: fab
-  link: https://github.com/DivadNojnarg
+  url: https://github.com/DivadNojnarg
 title: David Granjon
 ---
 

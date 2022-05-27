@@ -13,15 +13,12 @@ links:
   name: E23
   url: https://shinydevseries.com/ep23
 social:
-- icon: home
-  icon_pack: fas
-  link: ''
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/sparktuga
+  url: https://twitter.com/sparktuga
 - icon: github
   icon_pack: fab
-  link: https://github.com/pedrocoutinhosilva
+  url: https://github.com/pedrocoutinhosilva
 title: Pedro da Silva
 ---
 

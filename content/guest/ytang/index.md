@@ -15,7 +15,7 @@ links:
 social:
 - icon: github
   icon_pack: fab
-  link: https://github.com/Yang-Tang
+  url: https://github.com/Yang-Tang
 title: Yang Tang
 ---
 

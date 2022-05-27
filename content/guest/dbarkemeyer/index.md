@@ -15,10 +15,10 @@ links:
 social:
 - icon: github
   icon_pack: fab
-  link: https://github.com/DavidBarke
+  url: https://github.com/DavidBarke
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/david-barkemeyer-6036941a2
+  url: https://www.linkedin.com/in/david-barkemeyer-6036941a2
 title: David Barkemeyer
 ---
 
