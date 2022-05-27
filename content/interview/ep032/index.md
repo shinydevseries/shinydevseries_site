@@ -26,6 +26,7 @@ layout: single-sidebar
 * Interactive web-based data visualization with R, `{plotly}`, and `{shiny}`: [plotly-r.com](https://plotly-r.com)
 * `{shinyjs}` Easily improve the user experience of your Shiny apps in seconds: [deanattali.com/shinyjs/](https://deanattali.com/shinyjs/)
 * `{reactable}` Interactive data tables for R: [glin.github.io/reactable](https://glin.github.io/reactable)
+* [Clean Code](https://www.oreilly.com/library/view/clean-code-a/9780136083238/): A Handbook of Agile Software Craftsmanship
 
 ## Episode Timestamps
 
@@ -38,3 +39,25 @@ layout: single-sidebar
 [00:45:15](https://youtube.com/watch?v=v0hk5xteYjQ&t=2715s) App development workflows </br>
 [00:49:30](https://youtube.com/watch?v=v0hk5xteYjQ&t=2970s) Underrated techniques </br>
 [00:58:20](https://youtube.com/watch?v=v0hk5xteYjQ&t=3500s) Episode wrapup </br>
+
+### `shinydevseries::session_info()`
+
+📽 Find previous interviews at <https://shinydevseries.com>
+
+📋 Feedback is more than welcome! Please send your comments or suggestions on our contact form at [shinydevseries.com/contact](https://shinydevseries.com/contact)
+
+If you enjoyed this video or got value from it, then consider dropping something in the tip jar. Any money raised will be used to improve the channel and invest in additional equipment and resources to make the content even better!
+
+💰 <https://bit.ly/sdstip>
+
+📨 Help shape the future direction of the Shiny Developer Series live streams by completing this very short [survey](https://forms.gle/wuveHJWZLjuzBQaC7)
+
+Media production for the Shiny Developer Series is made possible by these outstanding projects and platforms:
+
+* OBS Studio: <https://obsproject.com/>
+* OBS Fully Loaded install script by Martin Wimpress: <https://github.com/wimpysworld/obs-fully-loaded>
+* VDO Ninja: <https://vdo.ninja>
+* StreamElements: <https://streamelements.com>
+* ShotCut: <https://shotcut.org/>
+* Pop@_OS by System76: <https://pop.system76.com/>
+* Ubuntu: <https://ubuntu.com/>
