@@ -16,10 +16,10 @@ if (Sys.getenv("TERM_PROGRAM") == "vscode") {
         renv::install("languageserver")
     }
     
-    if (!"httpgd" %in% lib_packages) {
-        message("installing httpgd package")
-        renv::install("httpgd")
-    }
+    # if (!"httpgd" %in% lib_packages) {
+    #     message("installing httpgd package")
+    #     renv::install("httpgd")
+    # }
 
     if (!"vscDebugger" %in% lib_packages) {
         message("installation vscDebugger package")
