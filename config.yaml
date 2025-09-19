@@ -99,10 +99,10 @@ menu:
       title: About Blogophonic
       url: /about/
       weight: 3
-#    - name: Blog
-#      title: Blog
-#      url: /blog/
-#      weight: 4
+    - name: Blog
+      title: Blog
+      url: /blog/
+      weight: 5
     - name: Interviews
       title: Interviews
       url: /interview/
