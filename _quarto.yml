@@ -1,0 +1,49 @@
+project:
+  type: website
+
+website:
+  title: "Shiny Developer Series"
+  site-url: https://shinydevseries.com
+  description: "The Shiny Developer Series by Eric Nantz showcases the brilliant ecosystem around the Shiny web application framework."
+  page-navigation: true
+  back-to-top-navigation: true
+  twitter-card:
+    creator: "@theRcast"
+    site: "@theRcast"
+    card-style: summary_large_image
+  comments:
+    utterances:
+      repo: shinydevseries/site_rewrite_quarto
+      label: utterances
+      theme: body-light
+      issue-term: title
+    
+  navbar:
+    logo: assets/img/shinydevseries_hex.png
+    tools:
+    - icon: github
+      href: https://github.com/shinydevseries/site_rewrite_quarto
+    - icon: rss
+      href: blog/index.xml
+    
+    right:
+      - text: Interviews
+        href: interview/index.qmd
+      - text: Guests
+        href: guest/index.qmd
+      - text: Blog
+        href: blog/index.qmd
+      - text: About
+        href: about/index.qmd
+      #- text: Contact
+      #  href: contact/index.qmd
+
+format:
+  html:
+    theme:
+      light:
+        - cosmo
+        - assets/sds-theme-light.scss
+      dark:
+        - solar
+        - assets/sds-theme-dark.scss

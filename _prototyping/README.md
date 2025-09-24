@@ -1,0 +1,1 @@
+Use this directory to test out code or other site-related prototyping. By default the contents of this directory will not be version-controlled.

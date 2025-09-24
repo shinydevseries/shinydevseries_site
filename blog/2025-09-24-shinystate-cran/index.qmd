@@ -1,0 +1,33 @@
+---
+title: 'shinystate 0.1.0 is available on CRAN!'
+author: Eric Nantz
+date: 2025-09-24
+categories:
+  - R
+  - shiny
+subtitle: |
+  A new approach to supercharging Shiny Bookmarkable State
+description: ''
+draft: true
+---
+
+I am extremely thrilled to announce that my new package `{shinystate}` is now available on CRAN! The `{shinystate}` package enables powerful customization of the built-in Shiny bookmarkable state feature.
+
+You can install the package from CRAN with the following command:
+
+```r
+install.packages("shinystate")
+```
+
+## Why `shinystate`?
+
+In 2016, version 0.14 of Shiny introducted a new feature called [bookmarkable state](https://shiny.posit.co/r/articles/share/bookmarking-state/), enabling Shiny applications to save and restore the state of application input values and optionally reactive values. I was an early adopter of this feature, and it was very helpful for my applications with a relatively small number of inputs and outputs. As my production-grade applications grew in complexity, I encountered a few limitations:
+
+* The URL method of recording application state (where the input parameters are encoded inside the application URL address) would surpass the length of a URL allowed in a web browser's address bar.
+* When moving to the server method of recording application state (where the state of the application is saved to disk via custom `rds` objects), these state files where saved to a location within the hosting server's installation of Shiny Server (later Posit Connect) that only an administrator of that platform could access.
+* The default implementation lacked an easy way to track multiple bookmarkable states saved throughout the lifecycle of using a complex application.
+
+At the inagural [R/Pharma conference](https://rinpharma.com) held in 2018, the creator of Shiny Joe Cheng gave an enlightening keynote presentation [**Using Interactivity Responsibly in Pharma**](https://rinpharma.com/publication/rinpharma_32/). Joe created an example Shiny application to illustrate novel approaches, including slight customizations to the default bookmarkable state feature which allowed the user to save multiple sessions and choose which sessions to restore. You can see the application source code at the [GitHub repository](https://github.com/jcheng5/rpharma-demo). This was a launching point leading me to create a collection of functions and callback overrides that I utilized across multiple applications to solve the aforementioned issues. After copying these functions (and making small modifications each time) from one app to another, it became quite obvious that this situation called for a new package `{shinystate}`!
+
+
+

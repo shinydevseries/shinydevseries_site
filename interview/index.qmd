@@ -1,0 +1,18 @@
+---
+title: "Shiny Developer Series Interviews"
+description: |
+  Enjoy the amazing conversations, demonstrations, and much more from the vast Shiny community!
+listing:
+  sort: "date desc"
+  type: default
+  sort-ui: false
+  filter-ui: false
+  fields: [title, subtitle, author, date, image]
+  image-align: left
+  page-size: 5
+
+format:
+  html:
+    page-layout: full
+title-block-banner: false
+---

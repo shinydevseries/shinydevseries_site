@@ -1,0 +1,25 @@
+---
+title: Shiny Dev Series Blog
+description: |
+  Eric shares his experiences with pushing the Shiny framework to new heights as well as "learning out loud" in his continued journey to innovate with open-source software in the world of Data Science.
+listing:
+  contents:
+    - "**/index.qmd"
+    - "**/index.markdown"
+    - "**/index.md"
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, author, categories, date, image]
+  image-align: right
+  feed:
+    categories: [R, python, shiny, linux, nix, containers, tutorial, web]
+citation: false
+toc: false
+format:
+  html:
+    page-layout: full
+title-block-banner: false
+---

@@ -1,0 +1,36 @@
+---
+title: "Shiny Developer Series"
+pagetitle: "Shiny Developer Series"
+image: assets/img/about_page_pic.gif
+image-alt: "A slideshow of images from selected interviews"
+
+about:
+    template: solana
+    image-width: 28em
+    id: hero-heading
+    links:
+      - icon: github
+        aria-label: GitHub
+        href: https://github.com/shinydevseries
+      - icon: youtube
+        aria-label: "YouTube Channel"
+        href: https://youtube.com/shinydeveloperseries
+      - icon: twitch
+        aria-label: "Twitch Channel"
+        href: https://twitch.tv/rpodcast
+      - text: "{{< fa brands bluesky >}}"
+        aria-label: "BlueSky"
+        href: https://bsky.app/profile/rpodcast.bsky.social
+      - icon: mastodon
+        aria-label: "Mastodon"
+        href: https://podcastindex.social/@rpodcast
+page_layout: full
+---
+
+<br><br>
+
+::: {#hero-heading}
+
+### Showcasing the brilliant stories behind the Shiny ecosystem with package developers, practitioners, and enthusiasts.
+
+:::

@@ -1,0 +1,23 @@
+---
+title: Eric Nantz
+about:
+  template: trestles
+  image: eric-avatar.jpg
+  links:
+    - icon: twitter
+      href: https://twitter.com/theRcast
+    - icon: mastodon
+      href: https://podcastindex.social/@rpodcast
+    - icon: linkedin
+      href: https://www.linkedin.com/in/eric-nantz-6621617/
+    - text: "{{< fa brands bluesky >}}"
+      href: https://bsky.app/profile/rpodcast.bsky.social
+---
+
+## Behind The Screen
+
+The goals of the **Shiny Developer Series** are to showcase the innovative applications and packages in the ever-growing Shiny ecosystem, as well as the brilliant developers behind them! The series is composed of these components:
+
+- Interviews with guests representing the variety of tools, techniques, and applications of Shiny in the real world. From members of the Shiny development team, package authors extending Shiny to new directions, and practitioners using Shiny to solve challenging problems and create production-grade workflows, our interviews have something for everyone!
+- Video tutorials and live streams illustrating powerful techniques to bring your Shiny applications to the next level.  Each of these videos will be posted on this site as well as the official Shiny Developer Series [YouTube channel](https://www.youtube.com/c/shinydeveloperseries)
+

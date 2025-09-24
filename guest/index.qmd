@@ -1,0 +1,17 @@
+---
+title: "Guests of the Shiny Developer Series"
+description: |
+  A gallery of the previous guests on the Shiny Dev Series! Ordered by most recent appearance on the series
+listing:
+  sort: "date desc"
+  type: grid
+  sort-ui: false
+  filter-ui: false
+  fields: [title, subtitle, image]
+  image-align: left
+
+format:
+  html:
+    page-layout: full
+title-block-banner: false
+---
