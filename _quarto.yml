@@ -1,6 +1,9 @@
 project:
   type: website
 
+execute:
+  freeze: auto
+
 website:
   title: "Shiny Developer Series"
   site-url: https://shinydevseries.com
