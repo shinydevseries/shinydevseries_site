@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Frontend Developer
 date: '2022-01-03'
 about:

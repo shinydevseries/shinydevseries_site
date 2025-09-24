@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Go behind the (gorgeous) scenes of the Movie Vue R app with Herman Sontrap
   and Kent Russell!
 title: 'Episode 26: Peeling back the curtain of Movie Vue R (Part 1)'

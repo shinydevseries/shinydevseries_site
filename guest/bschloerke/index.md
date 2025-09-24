@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Software Engineer
 date: '2020-10-03'
 about:

@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Chief Scientist
 date: '2021-03-10'
 about:

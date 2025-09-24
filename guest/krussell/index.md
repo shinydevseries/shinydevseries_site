@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Financial analyst and R package author
 date: '2022-01-03'
 about:

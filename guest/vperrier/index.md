@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Data scientist & co-founder of dreamRs
 date: '2019-11-15'
 about:

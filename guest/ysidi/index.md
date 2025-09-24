@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Statistician
 date: '2020-08-20'
 about:

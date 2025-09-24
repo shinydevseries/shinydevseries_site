@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Shiny Dev Center & education tips with Mine Cetinkaya-Rundel
 title: 'Episode 9: Shiny Dev Center & Education with Mine Cetinkaya-Rundel'
 date: '2020-03-10'

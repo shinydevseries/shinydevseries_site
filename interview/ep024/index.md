@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: How David Barkemeyer crafted his MyPaintings application for the 2021 Shiny
   contest!
 title: 'Episode 24: Illustrating the MyPaintings Masterpiece '

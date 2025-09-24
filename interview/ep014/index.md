@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: A glimpse at making learning more fun with learnr!
 title: 'Episode 14: Shining a Light on learnr (Barret Schloerke Part 3)'
 date: '2020-10-03'

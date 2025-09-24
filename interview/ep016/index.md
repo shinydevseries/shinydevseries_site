@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Using Shiny and htmlwidgets to help out friends and work alike!
 title: 'Episode 16: Jiena Gu McLellan'
 date: '2020-11-21'

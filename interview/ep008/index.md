@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: 'Recording of RStudio webinar: Exploring yonder'
 title: 'Episode 8: Exploring yonder'
 date: '2019-12-06'

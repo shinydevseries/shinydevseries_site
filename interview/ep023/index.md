@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Applying Shiny to high-profile projects and production application development
   advice with Appsilon's Pedro da Silva!
 title: 'Episode 23: Tales of Shiny in production with Pedro Silva'

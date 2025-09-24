@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: How the new Shiny App Stories came to life with Nick Strayer
 title: 'Episode 21: Shiny App Stories with Nick Strayer'
 date: '2021-06-11'

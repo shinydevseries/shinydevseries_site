@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Developer and Entrepeneur
 date: '2020-07-07'
 about:

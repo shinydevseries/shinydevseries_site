@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: 'Recording of RStudio webinar: shinyWidgets and enhancing user interfaces'
 title: 'Episode 7: shinyWidgets and dreamRs'
 date: '2019-11-15'

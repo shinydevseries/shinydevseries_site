@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Major updates to {bs4Dash} and an inside look at the only Shiny textbook dedicated solely to user interfaces!
 title: 'Episode 20: Outstanding User Interfaces with David Granjon'
 date: '2021-05-07'

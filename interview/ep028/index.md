@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: A unique perspective on the spread of COVID-19 brought to life with Kate
   Saunder's coronaSweeper Shiny app.
 title: 'Episode 28: The transformative effects of Shiny with the coronaSweeper app'

@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Shiny consultant & developer
 date: '2021-05-07'
 about:

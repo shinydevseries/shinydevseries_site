@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Innovating in Life Sciences using Shiny & JavaScript magic with Maya Gans!
 title: 'Episode 15: Maya Gans'
 date: '2020-10-22'

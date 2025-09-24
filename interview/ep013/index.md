@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: A tour of the massive new features in plumber 1.0!
 title: 'Episode 13: Inside Plumber 1.0 (Barret Schloerke Part 2)'
 date: '2020-09-17'

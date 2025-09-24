@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Data scientist at ThinkR
 date: '2021-12-03'
 about:

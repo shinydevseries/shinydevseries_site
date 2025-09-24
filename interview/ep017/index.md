@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: An enlightening view on the life of a Shiny consultant and giving back to
   the Shiny open-source community with Dean Attali!
 title: 'Episode 17: Dean Attali'

@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Statistical Programmer & Data Scientist
 date: '2020-10-22'
 about:

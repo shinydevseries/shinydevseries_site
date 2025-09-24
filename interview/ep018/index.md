@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: How Shiny brings real value from prototyping to production with Tanya Cashorali!
 title: 'Episode 18: Tanya Cashorali'
 date: '2020-12-23'

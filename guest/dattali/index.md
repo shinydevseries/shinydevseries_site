@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Shiny Consultant and Entrepeneur
 date: '2020-12-05'
 about:

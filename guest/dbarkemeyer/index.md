@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Student
 date: '2021-11-12'
 about:

@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Lecturer
 date: '2022-01-17'
 about:

@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Impact of Shiny in life sciences with Yoni Sidi!
 title: 'Episode 11: Yoni Sidi'
 date: '2020-08-20'

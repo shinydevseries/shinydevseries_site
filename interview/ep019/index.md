@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: The origins of Mastering Shiny and key advice from the architect of the Tidyverse!
 title: 'Episode 19: Climbing the Ladder of Shiny Mastery with Hadley Wickham'
 date: '2021-03-10'

@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Examining how improving user experience can lift Shiny applications to production level!
 title: 'Episode 10: The Importance of User Experience with John Coene'
 date: '2020-07-07'

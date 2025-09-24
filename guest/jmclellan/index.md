@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Software Developer
 date: '2020-11-21'
 about:

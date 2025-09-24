@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Cloud Data Engineer
 date: '2019-06-21'
 about:

@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Under the reactivity curtain with Barrett Schloerke!
 title: 'Episode 12: Barret Schloerke Part 1 (reactlog)'
 date: '2020-09-09'

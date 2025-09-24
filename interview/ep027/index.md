@@ -1,5 +1,5 @@
 ---
-draft: no
+draft: false
 subtitle: Revealing the cast of R bindings to Vue.js powering Movie Vue R with Kent
   Russell and Herman Sontrap!
 title: 'Episode 27: Peeling back the curtain of Movie Vue R (Part 2)'
