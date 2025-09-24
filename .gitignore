@@ -2,12 +2,13 @@
 .Rhistory
 .RData
 .Ruserdata
-/public/
-/resources/
-.DS_Store
-Thumbs.db
-.hugo_build.lock
-prototyping/*
-!prototyping/README.md
-!prototyping/post
-R/timestamps_exec.R
+
+/.quarto/
+/_site/
+_prototyping/*
+!_prototyping/README.md
+
+# nix files
+result
+
+/.luarc.json

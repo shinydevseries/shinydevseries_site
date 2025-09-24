@@ -1,0 +1,12 @@
+# Enable banner style title blocks
+title-block-banner: true
+
+# Table of contents settings
+toc: true
+toc-title: Table of contents
+
+# format options
+format:
+  html:
+    code-overflow: wrap
+    code-line-numbers: true

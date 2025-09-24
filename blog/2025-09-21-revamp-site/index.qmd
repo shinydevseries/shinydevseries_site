@@ -1,0 +1,23 @@
+---
+title: 'Revamping the Shiny Dev Series Site'
+author: Eric Nantz
+date: 2025-09-21
+categories:
+  - web
+subtitle: |
+  Sharing my adventures in migrating the site from Hugo to Quarto
+description: ''
+---
+
+## Introduction
+
+Hello
+
+## Links
+
+Albert Rapp tutorial on importing Google Fonts into Quarto while complying with GDPR https://www.youtube.com/watch?v=vaPBOqfus7w
+
+Silvia Canelon's post on switching from Hugo to Quarto https://silviacanelon.com/blog/2023-09-29-hello-quarto/ 
+
+Nicola Rennie's post https://nrennie.rbind.io/blog/hugo-quarto-website/
+

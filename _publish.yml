@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 9f409bbe-a763-4674-8e39-f1e9acf2b97a
+      url: https://shinydevseries.com
