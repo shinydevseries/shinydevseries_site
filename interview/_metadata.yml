@@ -1,1 +1,9 @@
 image: featured.jpg
+
+# Enable comments
+comments: 
+  utterances:
+    repo: shinydevseries/shinydevseries_site
+    issue-term: title
+    theme: boxy-light
+    label: "comments :crystal_ball:"

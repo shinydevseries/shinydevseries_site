@@ -12,6 +12,7 @@ about:
       href: https://www.linkedin.com/in/eric-nantz-6621617/
     - text: "{{< fa brands bluesky >}}"
       href: https://bsky.app/profile/rpodcast.bsky.social
+comments: false
 ---
 
 ## Behind The Screen
