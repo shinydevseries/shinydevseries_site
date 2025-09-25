@@ -9,15 +9,48 @@ subtitle: |
 description: ''
 ---
 
-## Introduction
+## A New Perspective
 
-Hello
+Hello Shiny enthusiasts! While it's been over three years since my last episode of the Shiny Developer Series, I have not stopped in my journey to level-up my skills in creating innovative Shiny applications, as well as seeing how far I can integrate Shiny with other technologies in Data Science and the world of open source. I have plans to create new content for the series as a mix of video tutorials, as well as resuming interviews with the developers and practioners I've met recently. But I didn't want to stop there, and I looked into augmenting media content with online resources, including a brand new blog that you are reading now!
 
-## Links
+Adding a blog component to the existing web site architecture built with [`{blogdown}`](https://bookdown.org/yihui/blogdown/) and the [Hugo Apero](https://hugo-apero-docs.netlify.app/) theme was certainly possible, and I began to dust off the digtal cobwebs of the dev environment to make it happen. If my blog posts woud have just contain small snippets of R code with markdown text, I would have been able to keep everything as-is. But I ran into snags when I tried to experiment with one of my favorite new technologies that's landed in the last couple of years: Shiny applications powered by WebAssembly via [shinylive](https://posit-dev.github.io/r-shinylive/). If I'm going to be writing content about Shiny, how cool is it to have an actual Shiny app running entirely in the web browser, without being an iframe to an app running on a server process? Much of it still seems magical to me, but the potential is immense. I plan to write a separate post about the recent [Pilot 4](https://github.com/RConsortium/submissions-pilot4-webR) test submission to health authorities which incorporates a WebAssembly-powered Shiny app (stay tuned for that).
 
-Albert Rapp tutorial on importing Google Fonts into Quarto while complying with GDPR https://www.youtube.com/watch?v=vaPBOqfus7w
+## Motivation for the Switch to Quarto
 
-Silvia Canelon's post on switching from Hugo to Quarto https://silviacanelon.com/blog/2023-09-29-hello-quarto/ 
+Back to the main topic: I did my best to try and get everything working in the Hugo stack (which also was based on the use of Dev Containers inside Visual Studio Code as well as package management with `{renv}`). When I tried to install `{shinylive}`, that triggered a massive domino effect of a few other packages in the dev environment requiring updates, which in turn made `{blogdown}` and by proxy Hugo quite angry at me. If I had more spare time I'm fairly confident I could have stiched something together, but I've learned the hard way that I need to be more strategic on where I put in the time amongst my "real life" challenges these days.
 
-Nicola Rennie's post https://nrennie.rbind.io/blog/hugo-quarto-website/
+As a curator for the [R Weekly](https://rweekly.org) project combined with hosting the [R Weekly Highlights](https://serve.podhome.fm/r-weekly-highlights) Podcast alongside the supremely-awesome [Mike Thomas](https://www.ketchbrookanalytics.com/), I've seen brilliant members of the R community switch the frameworks behind their web sites from Hugo to [Quarto](https://quarto.org/) (the open-source publishing system created by [Posit](https://posit.co/)), sharing their journeys on their respective blogs:
 
+* [Hello Quarto: Porting my Website from Hugo Apero](https://silviacanelon.com/blog/2023-09-29-hello-quarto/) - Sylvia Canelon
+* [Switching my website from Hugo to Quarto](https://nrennie.rbind.io/blog/hugo-quarto-website/) - Nicola Rennie
+
+I'm using Quarto in many situations for both professional and personal projects, and I am continuing to both learn and enjoy the experience with this powerful tool. The fact of the matter is that the key features I need for the Shiny Developer Series site come out of the box or available via the extension system:
+
+* [Embedding video content](https://quarto.org/docs/authoring/videos.html) with a built-in short code.
+* Customizable [RSS feeds]() for blog content
+* [Precedent](https://quarto.thecoatlessprofessor.com/r-shinylive-demo/) for embedding serverless Shiny applications created with R or Python.
+* [Choice of layouts](https://quarto.org/docs/websites/website-listings.html#listing-types) for displaying lists of content including a grid-based view.
+* Built-in [About Page](https://quarto.org/docs/websites/website-about.html) template which is perfect for sharing information about guests who have appeared in a Shiny Dev Series interview.
+
+Even with all of these factors, I still felt a lot of guilt making this switch. Why, you may ask? In my twenty-plus years of using R, there have been a handful of truly remarkable innovations that literally changed the game. One of those is [R-Markdown](https://rmarkdown.rstudio.com/). I was extremely fortunate to interview [Yihui Xie](https://yihui.org/en/) as my first-ever guest on the [R-Podcast episode 13](https://r-podcast.org/013-interview-with-yihui-xie/) and I vividly remember him showing me his new project before we started recording that eventually became R-Markdown support inside [`{knitr}`](https://yihui.org/knitr/). I could not believe what I was seeing! I was an early adopter and even [re-created my R-Podcast site](https://support.rbind.io/2017/04/27/r-podcast-website/) to use Hugo and `{blogdown}` once it became feasible. Anyone who has listened to the back catalog of the R-Podcast and R-Weekly Highlights has heard me speak on how much respect and admiration I have for Yihui as not just a super-talented software engineer but an even better person, who has been [extremely forthright](https://yihui.org/en/2018/02/r-podcast/) on his personal journey with me of all people. I have never taken that for granted. The R community is so awesome because we don't just have these amazing packages and frameworks available to us, but the developers behind them are very often great people. It felt as if I was betraying one of the people I respected the most in this community. I took a step back and realized that it's not like I'm pulling the plug on R-Markdown for everything. I have no intentions of switching the R-Podcast site away from `{blogdown}` and Hugo, and I also have an very important documentation portal at the day job that will stay with the same `{blogdown}` and [Hugo Relearn theme](https://mcshelby.github.io/hugo-theme-relearn/index.html). My goodness this has become a long post already, but I felt it was the right thing to share this side of the story.
+
+## Technical Tidbits
+
+My workflow of actually making the switch to Quarto has a lot of parallels to the comprehensive details shared in the blogs from Sylvia and Nicola, so I won't repeat those steps here. But I'll share a few key tricks that pushed this to the finish line:
+
+* My preferred development environment for open-source work these days involves using [Nix](https://shopify.engineering/what-is-nix). The combination of R and Quarto is really powerful, and bootstrapping the development environemt from the friendly confines in R with the [`{rix}`](https://docs.ropensci.org/rix/) package has worked very well.
+* Another out-of-the-box Quarto feature that I use is the [include shortcode](https://quarto.org/docs/authoring/includes.html), which lets me have a separate Quarto document for the cool Shiny Dev Series session info that I put at the end of each video's post.
+* When it was time to push the re-write up to the repository, I hit some snags with the auto-publishing pipeline with Netlify. Anyone making this switch who also deploys their site to Netlify should read Jady Ryan's amazing guide on [publishing a Quarto website with GitHub & Netlify](https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/). In that guide I saw that I needed to customize the `netlify.toml` and `package.json` files in the root of the repository to ensure Netlify would install the [Quarto Netlify plugin](https://github.com/quarto-dev/netlify-plugin-quarto).
+* After that snag was solved, another peculiar problem arose: Only a handful of the interview posts and guest entries were visible on the published site, while every post would show up without an issue on the local preview mode. What happened? When I copied over the YAML frontmatter from the Hugo version of the posts, one of the parameters defined was `draft: no`. Turns out that Quarto didn't like that setting to indicate a post was not a draft, and I had to change those to `draft: false`. The posts that appeared in the initial deployment never contained a `draft` parameter definiton. The more you know!
+* I wanted to ensure that everyone visiting the site would be able to access the fonts, since they are not the default. Even though all of the fonts are coming from Google Fonts, I recalled seeing a terrific tutorial from [Albert Rapp](https://albert-rapp.de/) about [importing Google Fonts into Quarto while complying with GDPR](https://www.youtube.com/watch?v=vaPBOqfus7w). I followed his clear instructions and the fonts are now part of the repository.
+
+## Looking Ahead
+
+The migration is not fully complete, as I have a few additional items to address:
+
+* Migrate the previous site's contact form.
+* Enable re-directs of the short URLs I created in Hugo for each interview post. Sylvia provides excellent details on her workflow to accomplish that, so I just need time to try it out.
+* Re-enable comments to posts using utterances.
+* Minor tweaks to other elements such as the footer.
+
+Overall I'm really looking forward to this new stage of the Shiny Developer Series. With the new foundation to the site powered by Quarto, I'm confident that I'll be able to incorporate fun ways to make this fun for everyone involved.
