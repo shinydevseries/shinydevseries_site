@@ -17,6 +17,7 @@ listing:
   feed:
     categories: [R, python, shiny, linux, nix, containers, tutorial, web]
 citation: false
+comments: false
 toc: false
 format:
   html:

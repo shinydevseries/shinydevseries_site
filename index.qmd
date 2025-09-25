@@ -3,6 +3,7 @@ title: "Shiny Developer Series"
 pagetitle: "Shiny Developer Series"
 image: assets/img/about_page_pic.gif
 image-alt: "A slideshow of images from selected interviews"
+comments: false
 
 about:
     template: solana

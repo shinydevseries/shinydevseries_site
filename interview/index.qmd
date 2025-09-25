@@ -10,6 +10,7 @@ listing:
   fields: [title, subtitle, author, date, image]
   image-align: left
   page-size: 5
+comments: false
 
 format:
   html:

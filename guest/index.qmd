@@ -9,6 +9,7 @@ listing:
   filter-ui: false
   fields: [title, subtitle, image]
   image-align: left
+comments: false
 
 format:
   html:
