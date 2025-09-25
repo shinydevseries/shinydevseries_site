@@ -16,7 +16,7 @@ website:
     card-style: summary_large_image
   comments:
     utterances:
-      repo: shinydevseries/site_rewrite_quarto
+      repo: shinydevseries/shinydevseries_site
       label: utterances
       theme: body-light
       issue-term: title
