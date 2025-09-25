@@ -10,3 +10,11 @@ format:
   html:
     code-overflow: wrap
     code-line-numbers: true
+
+# Enable comments
+comments: 
+  utterances:
+    repo: shinydevseries/shinydevseries_site
+    issue-term: title
+    theme: boxy-light
+    label: "comments :crystal_ball:"
