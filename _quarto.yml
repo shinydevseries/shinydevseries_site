@@ -10,6 +10,7 @@ website:
   description: "The Shiny Developer Series by Eric Nantz showcases the brilliant ecosystem around the Shiny web application framework."
   page-navigation: true
   back-to-top-navigation: true
+  favicon: assets/img/shinydevseries_hex.png
   twitter-card:
     creator: "@theRcast"
     site: "@theRcast"
