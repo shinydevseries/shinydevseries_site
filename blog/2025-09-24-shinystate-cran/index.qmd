@@ -1,14 +1,13 @@
 ---
 title: 'shinystate 0.1.0 is available on CRAN!'
 author: Eric Nantz
+image: logo.png
 date: 2025-09-25
 categories:
   - R
   - shiny
-subtitle: |
-  A new approach to supercharging Shiny Bookmarkable State
 code-annotations: hover
-description: ''
+description: 'A new package for take Shiny Bookmarkable State to new heights.'
 draft: false
 ---
 

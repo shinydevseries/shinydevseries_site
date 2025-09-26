@@ -12,7 +12,7 @@ listing:
   categories: false
   sort-ui: false
   filter-ui: false
-  fields: [title, author, categories, date, image]
+  fields: [title, author, categories, date, image, description]
   image-align: right
   feed:
     categories: [R, python, shiny, linux, nix, containers, tutorial, web]

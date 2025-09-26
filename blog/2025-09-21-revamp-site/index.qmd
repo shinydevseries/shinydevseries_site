@@ -4,9 +4,8 @@ author: Eric Nantz
 date: 2025-09-21
 categories:
   - web
-subtitle: |
+description: |
   Sharing my adventures in migrating the site from Hugo to Quarto
-description: ''
 ---
 
 ## A New Perspective
@@ -50,7 +49,7 @@ The migration is not fully complete, as I have a few additional items to address
 
 * Migrate the previous site's contact form.
 * Enable re-directs of the short URLs I created in Hugo for each interview post. Sylvia provides excellent details on her workflow to accomplish that, so I just need time to try it out.
-* Re-enable comments to posts using utterances.
 * Minor tweaks to other elements such as the footer.
 
-Overall I'm really looking forward to this new stage of the Shiny Developer Series. With the new foundation to the site powered by Quarto, I'm confident that I'll be able to incorporate fun ways to make this fun for everyone involved.
+Overall I'm really looking forward to this new stage of the Shiny Developer Series!
+
