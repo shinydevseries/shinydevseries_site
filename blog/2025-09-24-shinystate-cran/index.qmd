@@ -1,7 +1,7 @@
 ---
 title: 'shinystate 0.1.0 is available on CRAN!'
 author: Eric Nantz
-image: logo.png
+image: logo_small.png
 date: 2025-09-25
 categories:
   - R
