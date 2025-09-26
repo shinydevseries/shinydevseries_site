@@ -11,6 +11,8 @@ website:
   page-navigation: true
   back-to-top-navigation: true
   favicon: assets/img/shinydevseries_hex.png
+  image: assets/img/shinydevseries_hex.png
+  open-graph: true
   twitter-card:
     creator: "@theRcast"
     site: "@theRcast"
