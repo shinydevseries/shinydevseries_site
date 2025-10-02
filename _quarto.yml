@@ -28,7 +28,7 @@ website:
     logo: assets/img/shinydevseries_hex.png
     tools:
     - icon: github
-      href: https://github.com/shinydevseries/site_rewrite_quarto
+      href: https://github.com/shinydevseries/shinydevseries_site
     
     right:
       - text: Interviews
