@@ -13,8 +13,6 @@ format:
 
 # Enable comments
 comments: 
-  utterances:
+  giscus: 
     repo: shinydevseries/shinydevseries_site
-    issue-term: title
-    theme: boxy-light
-    label: "comments :crystal_ball:"
+    mapping: title
