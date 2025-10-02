@@ -18,17 +18,15 @@ website:
     site: "@theRcast"
     card-style: summary_large_image
   comments:
-    utterances:
+    giscus: 
       repo: shinydevseries/shinydevseries_site
-      label: utterances
-      theme: body-light
-      issue-term: title
+      mapping: title
     
   navbar:
     logo: assets/img/shinydevseries_hex.png
     tools:
     - icon: github
-      href: https://github.com/shinydevseries/site_rewrite_quarto
+      href: https://github.com/shinydevseries/shinydevseries_site
     
     right:
       - text: Interviews
