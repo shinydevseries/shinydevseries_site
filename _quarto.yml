@@ -60,6 +60,8 @@ format:
       light:
         - cosmo
         - assets/sds-theme-light.scss
+        - assets/misc.scss
       dark:
         - solar
         - assets/sds-theme-dark.scss
+        - assets/misc.scss
